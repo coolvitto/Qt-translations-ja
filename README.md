@@ -13,6 +13,8 @@ https://code.qt.io/cgit/qt/qttranslations.git/
 ## 🔹ツール (Tools)
 - Qt Linguist
 
+https://github.com/thurask/Qt-Linguist/
+
 ## 🔹備考 (Notes)
 - l10nをベースに個人で翻訳したものです。 (Personal translation,base on l10n)
 - 公式で公開されているものでありません。(Not officially provided by The Qt Company)
