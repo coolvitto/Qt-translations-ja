@@ -950,7 +950,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Length Variants</source>
-        <translation>文字列長バリエーション</translation>
+        <translation>翻訳バリエーション</translation>
     </message>
     <message>
         <location line="-2249"/>
@@ -1509,7 +1509,7 @@ All files (*)</source>
     </message>
     <message>
         <source>Show more</source>
-        <translation>さらに表示</translation>
+        <translation>表示を増やす</translation>
     </message>
     <message>
         <source>Alt++</source>
