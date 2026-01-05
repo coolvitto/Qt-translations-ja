@@ -963,7 +963,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Length Variants</source>
-        <translation>文字列長バリエーション</translation>
+        <translation>翻訳バリエーション</translation>
     </message>
     <message>
         <source></source>
@@ -1464,7 +1464,7 @@ All files (*)</source>
     </message>
     <message>
         <source>Guesses</source>
-        <translation>候補</translation>
+        <translation>提案</translation>
     </message>
     <message>
         <source>Toggles the validity check of accelerators</source>
@@ -1516,7 +1516,7 @@ All files (*)</source>
     </message>
     <message>
         <source>Show more</source>
-        <translation>さらに表示</translation>
+        <translation>表示を増やす</translation>
     </message>
     <message>
         <source>Alt++</source>
