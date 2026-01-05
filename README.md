@@ -1,4 +1,4 @@
-# Qt 日本語言語ファイル (*_ja.ts)
+# 🟦 Qt 日本語言語ファイル (*_ja.ts)
 
 このリポジトリには Qt 日本語言語ファイル (\*_ja.ts) が含まれています。</br>
 This repository contains Japanese translation (\*_ja.ts) files for Qt.
