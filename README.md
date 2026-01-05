@@ -12,6 +12,7 @@ https://code.qt.io/cgit/qt/qttranslations.git/
 
 ## 🔹ツール (Tools)
 - Qt Linguist
+- Qt Creator
 
 https://github.com/thurask/Qt-Linguist/
 
