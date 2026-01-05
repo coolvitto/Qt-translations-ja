@@ -18,7 +18,7 @@ https://code.qt.io/cgit/qt/qttranslations.git/
 - 公式で公開されているものでありません。(Not officially provided by The Qt Company)
 ---
 ### 🔹ファイルリスト (File list)
-Qt 5.15
+**Qt 5.15**
 - assistant_ja.ts
 - designer_ja.ts
 - linguist_ja.ts
@@ -32,7 +32,7 @@ Qt 5.15
 - qtwebsockets_ja.ts
 - qtxmlpatterns_ja.ts
 
-Qt 6.10
+**Qt 6.10**
 - translations
 - assistant_ja.ts
 - designer_ja.ts
@@ -46,8 +46,8 @@ Qt 6.10
 
 ### 🔸更新履歴 (Update history)
 
-2026-01-05
+**2026-01-05**
  - 5.15 linguist_ja.ts fix
  - 6.10 linguist_ja.ts fix
 
-2025-12-30 初公開
+**2025-12-30** 初公開
