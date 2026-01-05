@@ -44,6 +44,7 @@ https://code.qt.io/cgit/qt/qttranslations.git/
 - qtserialport_ja.ts
 - qtwebsockets_ja.ts
 
+---
 ### 🔸更新履歴 (Update history)
 
 **2026-01-05**
