@@ -14,7 +14,7 @@ https://code.qt.io/cgit/qt/qttranslations.git/
 - Qt Linguist
 - Qt Creator
 
-https://github.com/thurask/Qt-Linguist/
+https://github.com/thurask/Qt-Linguist/</br>
 https://www.qt.io/ja-jp/development/tools/qt-creator-ide
 
 ## 🔹備考 (Notes)
