@@ -5,7 +5,7 @@ This repository contains Japanese translation (\*_ja.ts) files for Qt.
 
 ## 🔹対象バージョン (Target)
 - Qt 5.15.x
-- Qt 6.10
+- Qt 6.x
 
 https://l10n-files.qt.io/l10n-files/</br>
 https://code.qt.io/cgit/qt/qttranslations.git/
@@ -36,7 +36,7 @@ https://www.qt.io/ja-jp/development/tools/qt-creator-ide
 - qtwebsockets_ja.ts
 - qtxmlpatterns_ja.ts
 
-**Qt 6.10**
+**Qt 6.10 / 6.11**
 - assistant_ja.ts
 - designer_ja.ts
 - linguist_ja.ts
