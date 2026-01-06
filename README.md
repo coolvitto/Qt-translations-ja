@@ -50,6 +50,9 @@ https://www.qt.io/ja-jp/development/tools/qt-creator-ide
 ---
 ### 🔸更新履歴 (Update history)
 
+**2026-01-06**
+ - 6.11 追加
+
 **2626-01-06**
  - 6.10 すべてのファイルを更新とクリーンアップ (Update all files)
 
