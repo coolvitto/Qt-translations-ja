@@ -37,7 +37,6 @@ https://www.qt.io/ja-jp/development/tools/qt-creator-ide
 - qtxmlpatterns_ja.ts
 
 **Qt 6.10**
-- translations
 - assistant_ja.ts
 - designer_ja.ts
 - linguist_ja.ts
