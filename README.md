@@ -49,7 +49,7 @@ https://www.qt.io/ja-jp/development/tools/qt-creator-ide
 - qtserialport_ja.ts
 - qtwebsockets_ja.ts
 
-**Qt Creator 18.0.1
+**Qt Creator 18.0.1**
  - qtcreator_ja.ts
 
 ---
