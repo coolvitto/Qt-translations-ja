@@ -57,6 +57,7 @@ https://www.qt.io/ja-jp/development/tools/qt-creator-ide
 
 **2026-01-21**
  - 6.10 削除 (Del 6.10)
+ - 6.11 linguist_ja.ts 更新 (Update linguist_ja.ts)
 
 **2026-01-11**
  - qtcreator_ja.ts 更新 (完全翻訳 第1版) (Update Complete translation 1st edition)
