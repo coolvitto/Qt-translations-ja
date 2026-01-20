@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ja_JP">
+<TS version="2.1" language="ja">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -85,7 +85,7 @@
     <name>DataModel</name>
     <message>
         <source>The translation file &apos;%1&apos; will not be loaded because it is empty.</source>
-        <translation>翻訳ファイル &apos;%1&apos; が空のためロードできません。</translation>
+        <translation>翻訳ファイル &apos;%1&apos; が空のため読み込めません。</translation>
     </message>
     <message>
         <source>&lt;qt&gt;Duplicate messages found in &apos;%1&apos;:</source>
@@ -110,8 +110,8 @@
     <message>
         <source>Linguist does not know the plural rules for &apos;%1&apos;.
 Will assume a single universal form.</source>
-        <translation>Linguist は&apos;%1&apos;の複数のルールを知りません。
-単一の共通形式とみなします。</translation>
+        <translation>Linguist は&apos;%1&apos;の言語設定を取得できませんでした。
+単一言語と仮定し開きます。</translation>
     </message>
     <message>
         <source>Cannot create &apos;%2&apos;: %1</source>
@@ -222,7 +222,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Click here to find the next occurrence of the text you typed in.</source>
-        <translation>入力したテキストが次に出てくる箇所を見つけるにはここをクリックします。</translation>
+        <translation>入力したテキストが次に出てくる箇所を検索するにはここをクリックします。</translation>
     </message>
     <message>
         <source>Find Next</source>
@@ -255,7 +255,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Obsoleted messages are skipped when checked.</source>
-        <translation>選択すると、廃止されたメッセージを検索対象から外します。</translation>
+        <translation>選択すると、廃止されたメッセージを検索対象から除外します。</translation>
     </message>
     <message>
         <source>Skip &amp;obsolete</source>
@@ -271,11 +271,11 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>T&amp;ranslation status:</source>
-        <translation>翻訳状況(&amp;R):</translation>
+        <translation>翻訳状態(&amp;R):</translation>
     </message>
     <message>
         <source>Lets you filter the search target by translation status</source>
-        <translation>翻訳状況で検索対象を絞り込むことができます</translation>
+        <translation>翻訳状態で検索対象を絞り込むことができます</translation>
     </message>
 </context>
 <context>
@@ -420,7 +420,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Print a list of all the translation units in the current translation source file.</source>
-        <translation>現在の Qt 翻訳ソースファイルの全ての翻訳の一覧を印刷します。</translation>
+        <translation>現在の Qt 翻訳ソースファイルのすべての翻訳の一覧を印刷します。</translation>
     </message>
     <message>
         <source>Ctrl+P</source>
@@ -656,11 +656,11 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>&amp;Reset Sorting</source>
-        <translation>ソート順序をリセット(&amp;R)</translation>
+        <translation>並び替え順をリセット(&amp;R)</translation>
     </message>
     <message>
         <source>Sort the items back in the same order as in the message file.</source>
-        <translation>項目のソートの順序をメッセージファイルと同じものに戻します。</translation>
+        <translation>項目の並び替え順をメッセージファイルと同じものに戻します。</translation>
     </message>
     <message>
         <source>&amp;Display guesses</source>
@@ -788,7 +788,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>&amp;Save All</source>
-        <translation>全て保存(&amp;S)</translation>
+        <translation>すべて保存(&amp;S)</translation>
     </message>
     <message>
         <source>Ctrl+S</source>
@@ -796,7 +796,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>&amp;Release All</source>
-        <translation>全てリリース(&amp;R)</translation>
+        <translation>すべてリリース(&amp;R)</translation>
     </message>
     <message>
         <source>Close</source>
@@ -804,7 +804,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>&amp;Close All</source>
-        <translation>全て閉じる(&amp;C)</translation>
+        <translation>すべて閉じる(&amp;C)</translation>
     </message>
     <message>
         <source>Ctrl+W</source>
@@ -862,11 +862,11 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Loading...</source>
-        <translation>ロードしています...</translation>
+        <translation>読み込み中...</translation>
     </message>
     <message>
         <source>Loading File - Qt Linguist</source>
-        <translation>ロードしています - Qt Linguist</translation>
+        <translation>読み込み中 - Qt Linguist</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; does not seem to be related to the currently open file(s) &apos;%2&apos;.
@@ -880,14 +880,14 @@ Close the open file(s) first?</source>
         <source>The file &apos;%1&apos; does not seem to be related to the file &apos;%2&apos; which is being loaded as well.
 
 Skip loading the first named file?</source>
-        <translation>ファイル &apos;%1&apos; は、既にロードされているファイル &apos;%2&apos; とは関連していないようです。
+        <translation>ファイル &apos;%1&apos; は、既にに開いているファイル &apos;%2&apos; とは関連していないようです。
 
-ファイルのロードをスキップしますか?</translation>
+ファイルの読み込みをスキップしますか?</translation>
     </message>
     <message numerus="yes">
         <source>%n translation unit(s) loaded.</source>
         <translation>
-            <numerusform>%n 件の翻訳項目をロードしました。</numerusform>
+            <numerusform>%n 件の翻訳項目を読み込みました。</numerusform>
         </translation>
     </message>
     <message>
@@ -930,7 +930,7 @@ All files (*)</source>
     </message>
     <message>
         <source>obsolete</source>
-        <translation>このバージョンでは使われていない</translation>
+        <translation>廃止</translation>
     </message>
     <message>
         <source>Printing... (page %1)</source>
@@ -986,7 +986,7 @@ All files (*)</source>
         <source>Qt phrase books (*.qph)
 All files (*)</source>
         <translation>Qt フレーズブック (*.qph)
-全てのファイル (*)</translation>
+すべてのファイル (*)</translation>
     </message>
     <message>
         <source>Phrase book created.</source>
@@ -1003,7 +1003,7 @@ All files (*)</source>
     <message numerus="yes">
         <source>%n phrase(s) loaded.</source>
         <translation>
-            <numerusform>%n 項目のフレーズがロードされました。</numerusform>
+            <numerusform>%n 項目のフレーズが読み込まれました。</numerusform>
         </translation>
     </message>
     <message>
@@ -1092,7 +1092,7 @@ All files (*)</source>
     </message>
     <message>
         <source>Save All</source>
-        <translation>全て保存</translation>
+        <translation>すべて保存</translation>
     </message>
     <message>
         <source>Close All</source>
@@ -1312,7 +1312,7 @@ All files (*)</source>
     </message>
     <message>
         <source>This area shows a comment that may guide you, and the context in which the text occurs.</source>
-        <translation>この領域は、手助けとなるコメントと、テキストが出てくるコンテキストを表示します。</translation>
+        <translation>この領域には、参考となるコメントと、テキストが使用される文脈が表示されます。</translation>
     </message>
     <message>
         <source>NCR mode</source>
@@ -1332,11 +1332,11 @@ All files (*)</source>
     </message>
     <message>
         <source>Translation to %1</source>
-        <translation>%1への翻訳</translation>
+        <translation>%1 への翻訳</translation>
     </message>
     <message>
         <source>Translator comments for %1</source>
-        <translation>%1の翻訳者コメント</translation>
+        <translation>%1 の翻訳者コメント</translation>
     </message>
     <message>
         <source>This is where you can enter or modify the translation of the above source text.</source>
@@ -1378,7 +1378,7 @@ Line: %2</source>
     <name>PhraseBook</name>
     <message>
         <source>Parse error at line %1, column %2 (%3).</source>
-        <translation>%1 行目、%2 列目でパースエラー (%3)。</translation>
+        <translation>%1 行目、%2 列目で解析エラー (%3)。</translation>
     </message>
 </context>
 <context>
@@ -1565,7 +1565,7 @@ Line: %2</source>
     </message>
     <message>
         <source>Words:</source>
-        <translation>語:</translation>
+        <translation>単語:</translation>
     </message>
     <message>
         <source>Characters:</source>
@@ -1573,7 +1573,7 @@ Line: %2</source>
     </message>
     <message>
         <source>Characters (with spaces):</source>
-        <translation>文字(スペースつき):</translation>
+        <translation>文字(空白付き):</translation>
     </message>
     <message>
         <source>Unfinished</source>
@@ -1632,7 +1632,7 @@ Line: %2</source>
     </message>
     <message>
         <source>Match &amp;case</source>
-        <translation>大文字・小文字の区別(&amp;C)</translation>
+        <translation>大/小文字の区別(&amp;C)</translation>
     </message>
     <message>
         <source>Mark new translation as &amp;finished</source>
@@ -1640,7 +1640,7 @@ Line: %2</source>
     </message>
     <message>
         <source>Click here to find the next occurrence of the text you typed in.</source>
-        <translation>入力したテキストが次に出てくる箇所を見つけるにはここをクリックします。</translation>
+        <translation>入力したテキストが次に出てくる箇所を検索するにはここをクリックします。</translation>
     </message>
     <message>
         <source>Find Next</source>
