@@ -55,6 +55,9 @@ https://www.qt.io/ja-jp/development/tools/qt-creator-ide
 ---
 ### 🔸更新履歴 (Update history)
 
+**2026-01-23**
+ - 6.11 qtbase_ja.ts 更新 (Update qtbase_ja.ts)
+
 **2026-01-21**
  - 6.10 削除 (Del 6.10)
  - 6.11 linguist_ja.ts 更新 (Update linguist_ja.ts)
