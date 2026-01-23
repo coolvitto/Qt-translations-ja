@@ -196,7 +196,7 @@
     </message>
     <message>
         <source>Yes to All</source>
-        <translation>全てはい</translation>
+        <translation>すべてはい</translation>
     </message>
     <message>
         <source>No</source>
@@ -204,7 +204,7 @@
     </message>
     <message>
         <source>No to All</source>
-        <translation>全ていいえ</translation>
+        <translation>すべていいえ</translation>
     </message>
 </context>
 <context>
@@ -230,7 +230,7 @@
     </message>
     <message>
         <source>Config</source>
-        <translation>コンフィグ</translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>Preference</source>
@@ -549,15 +549,15 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>Unable to fetch record %1</source>
-        <translation>レコード %1 をフェッチできません</translation>
+        <translation>レコード %1 を取得できません</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>次のレコードをフェッチできません</translation>
+        <translation>次のレコードを取得できません</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>最初のレコードをフェッチできません</translation>
+        <translation>最初のレコードを取得できません</translation>
     </message>
 </context>
 <context>
@@ -825,11 +825,11 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>Create New Folder</source>
-        <translation>新しいフォルダの作成</translation>
+        <translation>新しいフォルダーの作成</translation>
     </message>
     <message>
         <source>Create a New Folder</source>
-        <translation>新しいフォルダの作成</translation>
+        <translation>新しいフォルダーの作成</translation>
     </message>
     <message>
         <source>List View</source>
@@ -917,7 +917,7 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>&amp;New Folder</source>
-        <translation>新しいフォルダ(&amp;N)</translation>
+        <translation>新しいフォルダー(&amp;N)</translation>
     </message>
     <message>
         <source>All files (*)</source>
@@ -951,7 +951,7 @@ Please verify the correct file name was given.</source>
     </message>
     <message>
         <source>New Folder</source>
-        <translation>新しいフォルダ</translation>
+        <translation>新しいフォルダー</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -1427,7 +1427,7 @@ Do you want to delete it anyway?</source>
     <name>QIBaseDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>データベースのオープン時にエラーが発生しました</translation>
+        <translation>データベースを開く際にエラーが発生しました</translation>
     </message>
     <message>
         <source>Could not start transaction</source>
@@ -1518,7 +1518,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Unable to close statement</source>
-        <translation>ステートメントをクローズできません</translation>
+        <translation>ステートメントを閉じることができません</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
@@ -1526,7 +1526,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Could not fetch next item</source>
-        <translation>次のレコードをフェッチできませんでした</translation>
+        <translation>次のレコードを取得できませんでした</translation>
     </message>
     <message>
         <source>Could not get statement info</source>
@@ -1677,7 +1677,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>garbage at the end of the document</source>
-        <translation>ドキュメントの末尾にゴミがあります</translation>
+        <translation>ドキュメントの末尾に不正なデータがあります</translation>
     </message>
 </context>
 <context>
@@ -1704,7 +1704,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>metadata too small</source>
-        <translation>メタデータが小さすぎる</translation>
+        <translation>メタデータが小さすぎます</translation>
     </message>
     <message>
         <source>entrypoint to query the plugin meta data not found</source>
@@ -1816,7 +1816,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>a section name extends past the end of the file</source>
-        <translation>セクション名がファイルの末尾を超えている</translation>
+        <translation>セクション名がファイルの末尾を超えています</translation>
     </message>
     <message>
         <source>unexpected program header entry size (%1)</source>
@@ -2043,7 +2043,7 @@ Do you want to delete it anyway?</source>
     <name>QMYSQLResult</name>
     <message>
         <source>Unable to fetch data</source>
-        <translation>データをフェッチできません</translation>
+        <translation>データを取得できません</translation>
     </message>
     <message>
         <source>Unable to execute query</source>
@@ -2315,7 +2315,7 @@ Do you want to delete it anyway?</source>
     <name>QNetworkAccessCacheBackend</name>
     <message>
         <source>Error opening %1</source>
-        <translation>%1 オープン時のエラー</translation>
+        <translation>%1 を開く際のエラー</translation>
     </message>
 </context>
 <context>
@@ -2344,11 +2344,11 @@ Do you want to delete it anyway?</source>
     <name>QNetworkAccessFileBackend</name>
     <message>
         <source>Request for opening non-local file %1</source>
-        <translation>非ローカルファイル %1 をオープンするよう要求されましたが、ローカルファイルのみオープンできます</translation>
+        <translation>非ローカルファイル %1 を開くよう要求されましたが、ローカルファイルのみ開くことができます</translation>
     </message>
     <message>
         <source>Error opening %1: %2</source>
-        <translation>%1 のオープン時にエラーが発生しました: %2</translation>
+        <translation>%1 を開く際にエラーが発生しました: %2</translation>
     </message>
     <message>
         <source>Write error writing to %1: %2</source>
@@ -2494,7 +2494,7 @@ Do you want to delete it anyway?</source>
     <name>QODBCResult</name>
     <message>
         <source>Unable to fetch last</source>
-        <translation>ラストレコードをフェッチできません</translation>
+        <translation>ラストレコードを取得できません</translation>
     </message>
     <message>
         <source>QODBCResult::reset: Unable to set &apos;SQL_ATTR_CURSOR_TYPE&apos; as statement attribute. Please check your ODBC driver configuration</source>
@@ -2510,19 +2510,19 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Unable to fetch</source>
-        <translation>フェッチできません</translation>
+        <translation>取得できません</translation>
     </message>
     <message>
         <source>Unable to fetch next</source>
-        <translation>次のレコードをフェッチできません</translation>
+        <translation>次のレコードを取得できません</translation>
     </message>
     <message>
         <source>Unable to fetch first</source>
-        <translation>最初のレコードをフェッチできません</translation>
+        <translation>最初のレコードを取得できません</translation>
     </message>
     <message>
         <source>Unable to fetch previous</source>
-        <translation>前のレコードをフェッチできません</translation>
+        <translation>前のレコードを取得できません</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
@@ -3226,7 +3226,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Yes to &amp;All</source>
-        <translation>全てはい(&amp;A)</translation>
+        <translation>すべてはい(&amp;A)</translation>
     </message>
     <message>
         <source>&amp;No</source>
@@ -3234,7 +3234,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>N&amp;o to All</source>
-        <translation>全ていいえ(&amp;O)</translation>
+        <translation>すべていいえ(&amp;O)</translation>
     </message>
     <message>
         <source>Abort</source>
@@ -3352,7 +3352,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>All Pages</source>
-        <translation>全てのページ</translation>
+        <translation>すべてのページ</translation>
     </message>
     <message>
         <source>Odd Pages</source>
@@ -3857,7 +3857,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>lookbehind is too complicated</source>
-        <translation>後読みは複雑すぎる</translation>
+        <translation>後読みが複雑すぎます</translation>
     </message>
     <message>
         <source>\C is not allowed in a lookbehind assertion in UTF-16 mode</source>
@@ -3997,7 +3997,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>lookbehind assertion is too long</source>
-        <translation>後読みアサーションが長すぎる</translation>
+        <translation>後読みアサーションが長すぎます</translation>
     </message>
     <message>
         <source>pattern string is longer than the limit set by the application</source>
@@ -4436,11 +4436,11 @@ Please turn one of those options off.</source>
     <name>QSQLiteDriver</name>
     <message>
         <source>Error opening database</source>
-        <translation>データベースのオープン時にエラーが発生しました</translation>
+        <translation>データベースを開く際にエラーが発生しました</translation>
     </message>
     <message>
         <source>Error closing database</source>
-        <translation>データベースのクローズ時にエラーが発生しました</translation>
+        <translation>データベースを閉じるにエラーが発生しました</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
@@ -4459,7 +4459,7 @@ Please turn one of those options off.</source>
     <name>QSQLiteResult</name>
     <message>
         <source>Unable to fetch row</source>
-        <translation>レコードをフェッチできません</translation>
+        <translation>レコードを取得できません</translation>
     </message>
     <message>
         <source>No query</source>
@@ -6794,39 +6794,39 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>LRE Start of left-to-right embedding</source>
-        <translation>LRE(Start of left-to-right embedding)</translation>
+        <translation>LRE(左から右への埋め込み開始)</translation>
     </message>
     <message>
         <source>RLE Start of right-to-left embedding</source>
-        <translation>RLE(Start of right-to-left embedding)</translation>
+        <translation>RLE(右から左への埋め込み開始)</translation>
     </message>
     <message>
         <source>LRO Start of left-to-right override</source>
-        <translation>LRO(Start of left-to-right override)</translation>
+        <translation>LRO(左から右への上書き開始)</translation>
     </message>
     <message>
         <source>RLO Start of right-to-left override</source>
-        <translation>RLO(Start of right-to-left override)</translation>
+        <translation>RLO(右から左への上書き開始)</translation>
     </message>
     <message>
         <source>PDF Pop directional formatting</source>
-        <translation>PDF(Pop directional formatting)</translation>
+        <translation>PDF(方向指定の解除)</translation>
     </message>
     <message>
         <source>LRI Left-to-right isolate</source>
-        <translation>LRI(Left-to-right isolate)</translation>
+        <translation>LRI(左から右への分離)</translation>
     </message>
     <message>
         <source>RLI Right-to-left isolate</source>
-        <translation>RLI(Right-to-left isolate)</translation>
+        <translation>RLI(右から左への分離)</translation>
     </message>
     <message>
         <source>FSI First strong isolate</source>
-        <translation>FSI(First strong isolate)</translation>
+        <translation>FSI(最初の強い分離)</translation>
     </message>
     <message>
         <source>PDI Pop directional isolate</source>
-        <translation>PDI(Pop directional isolate)</translation>
+        <translation>PDI(方向分離の解除)</translation>
     </message>
     <message>
         <source>Insert Unicode control character</source>
@@ -6886,13 +6886,13 @@ Please turn one of those options off.</source>
     <name>QWindowsDirect2DIntegration</name>
     <message>
         <source>Cannot load direct2d platform plugin</source>
-        <translation>direct2d プラットフォームプラグインをロードできません</translation>
+        <translation>direct2d プラットフォームプラグインを読み込めません</translation>
     </message>
     <message>
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
 The minimum Direct2D version required is %1. The Direct2D version on this system is %2.</source>
-        <translation>このシステムの Direct2D バージョンが古すぎるため、Qt は Direct2D プラットフォームプラグインをロードできません。このプラットフォームプラグインの最小システム要件は、Windows 7 SP1（プラットフォームアップデート適用済み）です。
+        <translation>このシステムの Direct2D バージョンが古すぎるため、Qt は Direct2D プラットフォームプラグインを読み込めません。このプラットフォームプラグインの最小システム要件は、Windows 7 SP1（プラットフォームアップデート適用済み）です。
 
 必要な Direct2D の最小バージョンは %1 です。このシステムの Direct2D バージョンは %2 です。</translation>
     </message>
@@ -9928,11 +9928,11 @@ application/onix-message-short+xml</extracomment>
     </message>
     <message>
         <source>Fetch did not succeed</source>
-        <translation>フェッチは成功しませんでした</translation>
+        <translation>取得は成功しませんでした</translation>
     </message>
     <message>
         <source>Fetch first did not succeed</source>
-        <translation>フェッチファーストは成功しませんでした</translation>
+        <translation>取得ファーストは成功しませんでした</translation>
     </message>
     <message>
         <source>Could not fetch next row</source>
