@@ -58,6 +58,10 @@ This repository contains Japanese translation (\*_ja.ts) files for Qt.
 ---
 ### 🔸更新履歴 (Update history)
 
+**2026-02-17**
+ - 6.11 全ファイル 更新 (Update all files)</br>
+        (主にlinguist_ja.tsへAI/機械翻訳に関する翻訳が大量に追加された)
+
 **2026-01-23**
  - 6.11 qtbase_ja.ts 更新 (Update qtbase_ja.ts)
 
