@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ja">
+<TS version="2.1" language="ja_JP">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -138,28 +138,52 @@ Will assume a single universal form.</source>
         <translation>翻訳にアクセラレータが欠けています。</translation>
     </message>
     <message>
-        <source>Translation does not have same leading and trailing whitespace as the source text.</source>
-        <translation>翻訳にはソーステキストと同じ先頭と末尾の空白がありません。</translation>
-    </message>
-    <message>
         <source>Translation does not end with the same punctuation as the source text.</source>
         <translation>翻訳がソーステキストと同じ句読点で終わっていません。</translation>
+    </message>
+    <message>
+        <source>Accelerator possibly superfluous in translation: %1</source>
+        <translation>アクセラレータは翻訳においておそらく不要です : %1</translation>
+    </message>
+    <message>
+        <source>Accelerator possibly missing in translation: %1</source>
+        <translation>翻訳にアクセラレータが欠けています : %1</translation>
+    </message>
+    <message>
+        <source>Translation does not have same leading and trailing whitespace as the source text: %1</source>
+        <translation>翻訳にはソーステキストと同じ先頭と末尾の空白がありません : %1</translation>
+    </message>
+    <message>
+        <source>Translation does not end with the same punctuation as the source text: %1</source>
+        <translation>翻訳がソーステキストと同じ句読点で終わっていません : %1</translation>
     </message>
     <message>
         <source>A phrase book suggestion for &apos;%1&apos; was ignored.</source>
         <translation>&apos;%1&apos; についてのフレーズブックの示唆を無視しています。</translation>
     </message>
     <message>
-        <source>Translation does not refer to the same place markers as in the source text.</source>
-        <translation>翻訳にはソーステキストと同じ数の &quot;%&quot; がありません。</translation>
+        <source>Translation does not refer to the same place markers as in the source text: %1</source>
+        <translation>翻訳がソーステキストと同じ場所マーカーを参照していません : %1</translation>
     </message>
     <message>
-        <source>Translation does not contain the necessary %n/%Ln place marker.</source>
-        <translation>翻訳には必要な %n/%Ln 場所マーカーが含まれていません。</translation>
+        <source>Translation does not contain the necessary %n/%Ln place marker: %1</source>
+        <translation>翻訳には必要な %n/%Ln 場所マーカーが含まれていません : %1</translation>
+    </message>
+    <message>
+        <source>Translation does not refer to the same place markers as in the source text.</source>
+        <translation>翻訳がソーステキストと同じ場所マーカーを参照していません。</translation>
     </message>
     <message>
         <source>Unknown error</source>
         <translation>未知のエラー</translation>
+    </message>
+    <message>
+        <source>Translation does not have same leading and trailing whitespace as the source text.</source>
+        <translation>翻訳にはソーステキストと同じ先頭と末尾の空白がありません。</translation>
+    </message>
+    <message>
+        <source>Translation does not contain the necessary %n/%Ln place marker.</source>
+        <translation>翻訳には必要な %n/%Ln 場所マーカーが含まれていません。</translation>
     </message>
 </context>
 <context>
@@ -271,7 +295,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>T&amp;ranslation status:</source>
-        <translation>翻訳状態(&amp;R):</translation>
+        <translation>翻訳状況(&amp;R) :</translation>
     </message>
     <message>
         <source>Lets you filter the search target by translation status</source>
@@ -832,12 +856,24 @@ Will assume a single universal form.</source>
         <translation>コンテキスト</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>ラベル</translation>
+    </message>
+    <message>
         <source>Items</source>
         <translation>項目数</translation>
     </message>
     <message>
+        <source>Context/Label</source>
+        <translation>コンテキスト/ラベル</translation>
+    </message>
+    <message>
         <source>This panel lists the source contexts.</source>
-        <translation>このパネルではソースのコンテキストを一覧表示しています。</translation>
+        <translation>このパネルにはソースコンテキストが一覧表示されます。</translation>
+    </message>
+    <message>
+        <source>This panel lists the source labels.</source>
+        <translation>このパネルにはソースラベルが一覧表示されます。</translation>
     </message>
     <message>
         <source>Strings</source>
@@ -903,6 +939,14 @@ Skip loading the first named file?</source>
         <translation>ファイルが保存されました。</translation>
     </message>
     <message>
+        <source>Please select a file to be saved.</source>
+        <translation>保存するファイルを選択してください。</translation>
+    </message>
+    <message>
+        <source>This function is not available on WebAssembly</source>
+        <translation>この関数はWebAssemblyでは利用できません</translation>
+    </message>
+    <message>
         <source>Qt message files for released applications (*.qm)
 All files (*)</source>
         <translation>リリースされたアプリケーション用の Qt メッセージファイル (*.qm)
@@ -915,6 +959,10 @@ All files (*)</source>
     <message>
         <source>Printing...</source>
         <translation>印刷中...</translation>
+    </message>
+    <message>
+        <source>Label: %1</source>
+        <translation>ラベル : %1</translation>
     </message>
     <message>
         <source>Context: %1</source>
@@ -949,18 +997,6 @@ All files (*)</source>
         <translation>検索が一通り終わりました。</translation>
     </message>
     <message>
-        <source>Qt Linguist</source>
-        <translation>Qt Linguist</translation>
-    </message>
-    <message>
-        <source>Cannot find the string &apos;%1&apos;.</source>
-        <translation>文字列 &apos;%1&apos; が見つかりません。</translation>
-    </message>
-    <message>
-        <source>Search And Translate in &apos;%1&apos; - Qt Linguist</source>
-        <translation>&apos;%1&apos; 内で検索して翻訳 - Qt Linguist</translation>
-    </message>
-    <message>
         <source>Qt Linguist is a tool for adding translations to Qt applications.</source>
         <translation>Qt Linguist は、Qt アプリケーションに翻訳を追加するためのツールです。</translation>
     </message>
@@ -972,11 +1008,35 @@ All files (*)</source>
         <source>Displays information about %1.</source>
         <translation>%1 に関する情報を表示します。</translation>
     </message>
+    <message>
+        <source>Qt Linguist</source>
+        <translation>Qt Linguist</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Cannot find the string &apos;%1&apos;.</source>
+        <translation>文字列 &apos;%1&apos; が見つかりません。</translation>
+    </message>
+    <message>
+        <source>Search And Translate in &apos;%1&apos; - Qt Linguist</source>
+        <translation>&apos;%1&apos; 内で検索して翻訳 - Qt Linguist</translation>
+    </message>
+    <message>
+        <source>Translate - Qt Linguist</source>
+        <translation>翻訳 - Qt Linguist</translation>
+    </message>
     <message numerus="yes">
-        <source>%n unfinished message(s) left.</source>
+        <source>Translated %n entry(s)</source>
         <translation>
-            <numerusform>未完了のメッセージが %n 件残っています。</numerusform>
+            <numerusform>%n 項目が翻訳済みです</numerusform>
         </translation>
+    </message>
+    <message>
+        <source>No more occurrences of &apos;%1&apos;. Start over?</source>
+        <translation>&apos;%1&apos; は、これ以上見つかりません。先頭に戻りますか?</translation>
     </message>
     <message>
         <source>Create New Phrase Book</source>
@@ -1071,6 +1131,10 @@ All files (*)</source>
         <translation>&apos;%1&apos; を名前を付けて保存(&amp;A)...</translation>
     </message>
     <message>
+        <source>&amp;Download &apos;%1&apos;</source>
+        <translation>ダウンロード(&amp;D) &apos;%1&apos;</translation>
+    </message>
+    <message>
         <source>Release &apos;%1&apos;</source>
         <translation>&apos;%1&apos; をリリース</translation>
     </message>
@@ -1085,6 +1149,10 @@ All files (*)</source>
     <message>
         <source>&amp;Save</source>
         <translation>保存(&amp;S)</translation>
+    </message>
+    <message>
+        <source>&amp;Download</source>
+        <translation>ダウンロード(&amp;D)</translation>
     </message>
     <message>
         <source>&amp;Close</source>
@@ -1141,6 +1209,12 @@ All files (*)</source>
     <message>
         <source>Do you want to save phrase book &apos;%1&apos;?</source>
         <translation>フレーズブック &apos;%1&apos; を保存しますか?</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n unfinished message(s) left.</source>
+        <translation>
+            <numerusform>未完了のメッセージが %n 件残っています。</numerusform>
+        </translation>
     </message>
     <message>
         <source>All</source>
@@ -1278,6 +1352,10 @@ All files (*)</source>
         <source>Shift+F3</source>
         <translation>Shift+F3</translation>
     </message>
+    <message>
+        <source>AI Translation...</source>
+        <translation>AI 翻訳...</translation>
+    </message>
 </context>
 <context>
     <name>MessageEditor</name>
@@ -1356,6 +1434,16 @@ Line: %2</source>
         <translation>%1 の翻訳完了状況</translation>
     </message>
     <message>
+        <source>&lt;unnamed label&gt;</source>
+        <translation>&lt;無名のラベル&gt;</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n unfinished message(s) left.</source>
+        <translation>
+            <numerusform>未完了のメッセージが %n 件残っています。</numerusform>
+        </translation>
+    </message>
+    <message>
         <source>&lt;file header&gt;</source>
         <translation>&lt;ファイル ヘッダー&gt;</translation>
     </message>
@@ -1366,12 +1454,6 @@ Line: %2</source>
     <message>
         <source>&lt;unnamed context&gt;</source>
         <translation>&lt;無名のコンテキスト&gt;</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n unfinished message(s) left.</source>
-        <translation>
-            <numerusform>未完了のメッセージが %n 件残っています。</numerusform>
-        </translation>
     </message>
 </context>
 <context>
@@ -1682,6 +1764,11 @@ Line: %2</source>
         <translation>翻訳先の言語</translation>
     </message>
     <message>
+        <source>%1 (%2)</source>
+        <extracomment>&lt;english&gt; (&lt;endonym&gt;) (language names)</extracomment>
+        <translation>%1 (%2)</translation>
+    </message>
+    <message>
         <source>Settings for &apos;%1&apos; - Qt Linguist</source>
         <translation>&apos;%1&apos; の設定 - Qt Linguist</translation>
     </message>
@@ -1689,10 +1776,306 @@ Line: %2</source>
         <source>Any Territory</source>
         <translation>任意の地域</translation>
     </message>
+</context>
+<context>
+    <name>MachineTranslationDialog</name>
     <message>
-        <source>%1 (%2)</source>
-        <extracomment>&lt;english&gt; (&lt;endonym&gt;) (language names)</extracomment>
-        <translation>%1 (%2)</translation>
+        <source>Auto Translation</source>
+        <translation>自動翻訳</translation>
+    </message>
+    <message>
+        <source>Context</source>
+        <translation>コンテキスト</translation>
+    </message>
+    <message>
+        <source>API Type</source>
+        <translation>API 種類</translation>
+    </message>
+    <message>
+        <source>Optional: Provide additional context about your application (e.g., medical software, game, financial app) for more accurate translations.</source>
+        <translation>任意 : より正確な翻訳のために、アプリケーションに関する追加のコンテキスト (医療ソフトウェア、ゲーム、金融アプリなど) を提供します。</translation>
+    </message>
+    <message>
+        <source>Maximum number of retry attempts for failed translation requests</source>
+        <translation>失敗した翻訳リクエストの最大再試行回数</translation>
+    </message>
+    <message>
+        <source>Maximum Retries</source>
+        <translation>最大再試行回数</translation>
+    </message>
+    <message>
+        <source>Maximum number of translation batches to process in parallel</source>
+        <translation>並行して処理できる翻訳バッチの最大数</translation>
+    </message>
+    <message>
+        <source>Maximum Concurrent Batches</source>
+        <translation>最大同時バッチ数</translation>
+    </message>
+    <message>
+        <source>Timeout for network requests in seconds</source>
+        <translation>ネットワークリクエストのタイムアウト(秒)</translation>
+    </message>
+    <message>
+        <source>Transfer Timeout (seconds)</source>
+        <translation>転送タイムアウト(秒)</translation>
+    </message>
+    <message>
+        <source>Maximum number of source texts to include in each translation batch</source>
+        <translation>各翻訳バッチに含めるソーステキストの最大数</translation>
+    </message>
+    <message>
+        <source>Maximum Batch Size</source>
+        <translation>最大バッチサイズ</translation>
+    </message>
+    <message>
+        <source>LLM temperature (lower = more deterministic, higher = more creative)</source>
+        <translation>LLMのtemperature (低い値ほど決定論的、高い値ほど創造的)</translation>
+    </message>
+    <message>
+        <source>Temperature</source>
+        <translation>Temperature</translation>
+    </message>
+    <message>
+        <source>Number of attempts of sending JSON-format requests before falling back to non-JSON format requests</source>
+        <translation>JSON 形式以外のリクエストにフォールバックする前に JSON 形式のリクエストを送信する試行回数</translation>
+    </message>
+    <message>
+        <source>Maximum JSON Format Tries</source>
+        <translation>JSON形式の最大試行回数</translation>
+    </message>
+    <message>
+        <source>Timeout for waking up an idle Ollama server in seconds</source>
+        <translation>アイドル状態の Ollama サーバーを起動するまでのタイムアウト (秒)</translation>
+    </message>
+    <message>
+        <source>Ollama Wake-up Timeout (seconds)</source>
+        <translation>Ollama ウェイクアップタイムアウト (秒)</translation>
+    </message>
+    <message>
+        <source>color: #b58900;</source>
+        <translation>色 : #b58900;</translation>
+    </message>
+    <message>
+        <source>Apply</source>
+        <translation>適用</translation>
+    </message>
+    <message>
+        <source>Reset to Defaults</source>
+        <translation>既定値へリセット</translation>
+    </message>
+    <message>
+        <source>Advanced Settings +</source>
+        <translation>高度な設定 +</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>次へ</translation>
+    </message>
+    <message>
+        <source>Not connected</source>
+        <translation>未接続</translation>
+    </message>
+    <message>
+        <source>Server URL</source>
+        <translation>サーバー URL</translation>
+    </message>
+    <message>
+        <source>Model</source>
+        <translation>モデル</translation>
+    </message>
+    <message>
+        <source>Connect</source>
+        <translation>接続</translation>
+    </message>
+    <message>
+        <source>API Key</source>
+        <translation>API キー</translation>
+    </message>
+    <message>
+        <source>Optional: Required only for cloud APIs (OpenAI, Anthropic, etc.)</source>
+        <translation>任意 : クラウド API (OpenAI、Anthropic など) のみに必要</translation>
+    </message>
+    <message>
+        <source>All Items</source>
+        <translation>すべての項目</translation>
+    </message>
+    <message>
+        <source>Text Based</source>
+        <translation>テキストベース</translation>
+    </message>
+    <message>
+        <source>ID Based</source>
+        <translation>ID ベース</translation>
+    </message>
+    <message>
+        <source>No messages selected</source>
+        <translation>メッセージが選択されていません</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>翻訳</translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation>グループ</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>フィルター</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ファイル</translation>
+    </message>
+    <message>
+        <source>Translation Log</source>
+        <translation>翻訳ログ</translation>
+    </message>
+    <message>
+        <source>Translation status: -</source>
+        <extracomment>Default display when no translations have been processed yet</extracomment>
+        <translation>翻訳状況 : -</translation>
+    </message>
+    <message>
+        <source>Stop</source>
+        <translation>停止</translation>
+    </message>
+    <message>
+        <source>Log Raw Requests</source>
+        <translation>Rawリクエストをログに記録する</translation>
+    </message>
+    <message>
+        <source>Apply Translations</source>
+        <translation>翻訳を適用</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>完了</translation>
+    </message>
+    <message>
+        <source>Configuration</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>選択</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>進捗</translation>
+    </message>
+    <message>
+        <source>Translation status: %1/%2 source texts translated, %3/%2 failed.</source>
+        <translation>翻訳状況 : %1/%2 のソーステキストが翻訳済み、%3/%2 が失敗しました。</translation>
+    </message>
+    <message>
+        <source>&lt;hr/&gt;&lt;b&gt;Translation completed: %1/%2 translated, %3/%2 failed.&lt;/b&gt;</source>
+        <translation>&lt;hr/&gt;&lt;b&gt;翻訳完了 : %1/%2 翻訳済み、%3/%2 が失敗しました。&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Qt Linguist</source>
+        <translation>Qt Linguist</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n translated item(s) will be discarded. Continue?</source>
+        <translation>
+            <numerusform>%n 個の翻訳済み項目が破棄されます。続行しますか?</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Translation Stopped.</source>
+        <translation>翻訳を停止しました。</translation>
+    </message>
+    <message>
+        <source>Please verify the service URL is valid and a translation model is selected.</source>
+        <translation>サービス URL が有効であり、翻訳モデルが選択されていることを確認してください。</translation>
+    </message>
+    <message>
+        <source>Please select a file for translation.</source>
+        <translation>翻訳するファイルを選択してください。</translation>
+    </message>
+    <message>
+        <source>Please select at least one context/label to translate.</source>
+        <translation>翻訳するコンテキスト/ラベルを少なくとも 1 つ選択してください。</translation>
+    </message>
+    <message>
+        <source>No items to translate. All selected messages already have translations.</source>
+        <translation>翻訳する項目はありません。選択したメッセージはすべて既に翻訳されています。</translation>
+    </message>
+    <message>
+        <source>Translation Started</source>
+        <translation>翻訳開始</translation>
+    </message>
+    <message>
+        <source>Plural count expected %1, got %2 for &quot;%3&quot;.</source>
+        <translation>複数形のカウントは %1 であるはずですが、&quot;%3&quot; では %2 でした。</translation>
+    </message>
+    <message>
+        <source>Translation Batch:</source>
+        <translation>翻訳バッチ :</translation>
+    </message>
+    <message>
+        <source>Translations Applied.</source>
+        <translation>翻訳を適用しました。</translation>
+    </message>
+    <message>
+        <source>Failed Translation(s):</source>
+        <translation>失敗した翻訳 :</translation>
+    </message>
+    <message>
+        <source>Selection status: -</source>
+        <extracomment>No selected items</extracomment>
+        <translation>選択状況 : -</translation>
+    </message>
+    <message numerus="yes">
+        <source>Selected %n item(s).</source>
+        <translation>
+            <numerusform>%n 個の項目を選択しました。</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>Selected %n item(s) in %1 group(s).</source>
+        <translation>
+            <numerusform>%1 グループ内の %n 個の項目を選択しました。</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Not connected - click &quot;Connect&quot; to fetch models</source>
+        <translation>接続されていません - モデルを取得するには「接続」をクリックしてください</translation>
+    </message>
+    <message>
+        <source>Connecting...</source>
+        <translation>接続中...</translation>
+    </message>
+    <message>
+        <source>Connected</source>
+        <translation>接続済み</translation>
+    </message>
+    <message>
+        <source>Connection failed - verify server URL and click &quot;Connect&quot;</source>
+        <translation>接続に失敗しました - サーバーの URL を確認し、「接続」をクリックしてください</translation>
+    </message>
+    <message>
+        <source>URL modified - click &quot;Connect&quot; to apply</source>
+        <translation>URLが変更されました - 適用するには「接続」をクリックしてください</translation>
+    </message>
+    <message>
+        <source>Advanced Settings -</source>
+        <translation>高度な設定 -</translation>
+    </message>
+    <message>
+        <source>Warning: Maximum JSON Format Tries: Low value may cause unnecessary format switching due to temporary errors. Recommended: 3 or higher.</source>
+        <extracomment>&quot;Maximum JSON Format Tries&quot; should use the same translation as the label &quot;Maximum JSON Format Tries&quot; in Advanced Settings</extracomment>
+        <translation>警告 : JSONフォーマットの最大試行回数 : 値が小さいと、一時的なエラーにより不要なフォーマット切り替えが発生する可能性があります。推奨 : 3以上。</translation>
+    </message>
+    <message>
+        <source>Warning: Maximum Retries: Should be at least 3x &apos;Maximum JSON Format Tries&apos; for full fallback coverage</source>
+        <extracomment>&quot;Maximum Retries&quot; and &quot;Maximum JSON Format Tries&quot; should use the same translations as the labels &quot;Maximum Retries&quot; and &quot;Maximum JSON Format Tries&quot; in Advanced Settings</extracomment>
+        <translation>警告 : 最大再試行回数 : フォールバックを完全にカバーするには、少なくとも「JSON 形式の最大再試行回数」の 3 倍にする必要があります</translation>
     </message>
 </context>
 <context>

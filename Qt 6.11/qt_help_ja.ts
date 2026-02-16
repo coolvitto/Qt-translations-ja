@@ -11,12 +11,20 @@
 <context>
     <name>QHelpCollectionHandler</name>
     <message>
+        <source>Cannot open collection file: %1</source>
+        <translation>コレクションファイルを開けません: %1</translation>
+    </message>
+    <message>
         <source>The collection file &quot;%1&quot; is not set up yet.</source>
         <translation>コレクションファイル &quot;%1&quot; はまだ設定されていません。</translation>
     </message>
     <message>
-        <source>Cannot open collection file: %1</source>
-        <translation>コレクションファイルを開けません: %1</translation>
+        <source>Cannot load sqlite database driver.</source>
+        <translation>SQLite データベースドライバがロードできません。</translation>
+    </message>
+    <message>
+        <source>Cannot create tables in file %1.</source>
+        <translation>ファイル %1 にテーブルを作成できません。</translation>
     </message>
     <message>
         <source>Cannot create index tables in file %1.</source>
@@ -53,14 +61,6 @@
     <message>
         <source>Version %1</source>
         <translation>バージョン %1</translation>
-    </message>
-    <message>
-        <source>Cannot load sqlite database driver.</source>
-        <translation>SQLite データベースドライバがロードできません。</translation>
-    </message>
-    <message>
-        <source>Cannot create tables in file %1.</source>
-        <translation>ファイル %1 にテーブルを作成できません。</translation>
     </message>
     <message>
         <source>Cannot create directory: %1</source>

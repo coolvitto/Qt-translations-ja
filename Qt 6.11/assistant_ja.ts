@@ -286,54 +286,6 @@ Reason:
 <context>
     <name>CmdLineParser</name>
     <message>
-        <source>Unknown option: %1</source>
-        <translation>不明なオプション: %1</translation>
-    </message>
-    <message>
-        <source>The collection file &apos;%1&apos; does not exist.</source>
-        <translation>コレクションファイル &apos;%1&apos; が存在しません。</translation>
-    </message>
-    <message>
-        <source>Missing collection file.</source>
-        <translation>コレクションファイルが見つかりません。</translation>
-    </message>
-    <message>
-        <source>Invalid URL &apos;%1&apos;.</source>
-        <translation>不正なURL &apos;%1&apos; です。</translation>
-    </message>
-    <message>
-        <source>Missing URL.</source>
-        <translation>URLが見つかりません。</translation>
-    </message>
-    <message>
-        <source>Unknown widget: %1</source>
-        <translation>不明なウィジェット: %1</translation>
-    </message>
-    <message>
-        <source>Missing widget.</source>
-        <translation>ウィジェットが見つかりません。</translation>
-    </message>
-    <message>
-        <source>The Qt help file &apos;%1&apos; does not exist.</source>
-        <translation>Qt のヘルプファイル &apos;%1&apos; が存在しません。</translation>
-    </message>
-    <message>
-        <source>Missing help file.</source>
-        <translation>ヘルプファイルが見つかりません。</translation>
-    </message>
-    <message>
-        <source>Missing filter argument.</source>
-        <translation>フィルタ引数が不足しています。</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>エラー</translation>
-    </message>
-    <message>
-        <source>Notice</source>
-        <translation>注意</translation>
-    </message>
-    <message>
         <source>Usage: assistant [Options]
 
 -collectionFile file       Uses the specified collection
@@ -388,6 +340,54 @@ Reason:
 -quiet                     エラーやステータスメッセージを表示しません。
 -help                      このヘルプを表示します。
 </translation>
+    </message>
+    <message>
+        <source>Unknown option: %1</source>
+        <translation>不明なオプション: %1</translation>
+    </message>
+    <message>
+        <source>The collection file &apos;%1&apos; does not exist.</source>
+        <translation>コレクションファイル &apos;%1&apos; が存在しません。</translation>
+    </message>
+    <message>
+        <source>Missing collection file.</source>
+        <translation>コレクションファイルが見つかりません。</translation>
+    </message>
+    <message>
+        <source>Invalid URL &apos;%1&apos;.</source>
+        <translation>不正なURL &apos;%1&apos; です。</translation>
+    </message>
+    <message>
+        <source>Missing URL.</source>
+        <translation>URLが見つかりません。</translation>
+    </message>
+    <message>
+        <source>Unknown widget: %1</source>
+        <translation>不明なウィジェット: %1</translation>
+    </message>
+    <message>
+        <source>Missing widget.</source>
+        <translation>ウィジェットが見つかりません。</translation>
+    </message>
+    <message>
+        <source>The Qt help file &apos;%1&apos; does not exist.</source>
+        <translation>Qt のヘルプファイル &apos;%1&apos; が存在しません。</translation>
+    </message>
+    <message>
+        <source>Missing help file.</source>
+        <translation>ヘルプファイルが見つかりません。</translation>
+    </message>
+    <message>
+        <source>Missing filter argument.</source>
+        <translation>フィルタ引数が不足しています。</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>Notice</source>
+        <translation>注意</translation>
     </message>
 </context>
 <context>
@@ -731,12 +731,12 @@ Reason:
         <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;バージョン %2&lt;/p&gt;&lt;p&gt;ブラウザ: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) The Qt Company Ltd.&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>Unfiltered</source>
-        <translation>フィルタなし</translation>
-    </message>
-    <message>
         <source>About %1</source>
         <translation>%1 について</translation>
+    </message>
+    <message>
+        <source>Unfiltered</source>
+        <translation>フィルタなし</translation>
     </message>
     <message>
         <source>Updating search index</source>

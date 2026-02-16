@@ -87,10 +87,6 @@
         <translation>プロトコルのアップグレード中に無効なパラメータが検出されました: %1</translation>
     </message>
     <message>
-        <source>QWebSocket::processHandshake: Host requires authentication</source>
-        <translation>QWebSocket::processHandshake: ホストは認証を必要とします</translation>
-    </message>
-    <message>
         <source>Accept-Key received from server %1 does not match the client key %2.</source>
         <translation>サーバから受け取った Accept ヘッダの値 %1 がクライアントの Key の値 %2 と合致しません。</translation>
     </message>
@@ -101,6 +97,10 @@
     <message>
         <source>QWebSocketPrivate::processHandshake: Unknown error condition encountered. Aborting connection.</source>
         <translation>QWebSocketPrivate::processHandshake: 未知のエラーが発生しました。接続を中止します。</translation>
+    </message>
+    <message>
+        <source>QWebSocket::processHandshake: Host requires authentication</source>
+        <translation>QWebSocket::processHandshake: ホストは認証を必要とします</translation>
     </message>
     <message>
         <source>QWebSocketPrivate::processHandshake: Unhandled http status code: %1 (%2).</source>
@@ -165,6 +165,14 @@
 <context>
     <name>QWebSocketFrame</name>
     <message>
+        <source>Waiting for more data from socket.</source>
+        <translation>ソケットからのさらなるデータを待機しています。</translation>
+    </message>
+    <message>
+        <source>Error occurred while reading header from the network: %1</source>
+        <translation>ネットワークからヘッダーを読み取り中にエラーが発生しました: %1</translation>
+    </message>
+    <message>
         <source>Error occurred while reading from the network: %1</source>
         <translation>ネットワークから読込中にエラーが発生しました: %1</translation>
     </message>
@@ -211,14 +219,6 @@
     <message>
         <source>Control frames cannot be fragmented</source>
         <translation>制御フレームは分割できません</translation>
-    </message>
-    <message>
-        <source>Waiting for more data from socket.</source>
-        <translation>ソケットからのさらなるデータを待機しています。</translation>
-    </message>
-    <message>
-        <source>Error occurred while reading header from the network: %1</source>
-        <translation>ネットワークからヘッダーを読み取り中にエラーが発生しました: %1</translation>
     </message>
 </context>
 <context>

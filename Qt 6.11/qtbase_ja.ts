@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ja">
+<TS version="2.1" language="ja_JP">
 <context>
     <name>CloseButton</name>
     <message>
@@ -210,12 +210,12 @@
 <context>
     <name>QApplication</name>
     <message>
-        <source>Incompatible Qt Library Error</source>
-        <translation>互換性のない Qt ライブラリエラー</translation>
-    </message>
-    <message>
         <source>Application &quot;%1&quot; requires Qt %2, found Qt %3.</source>
         <translation>実行可能ファイル &apos;%1&apos; には Qt %2 が必要ですが Qt %3 が見つかりました。</translation>
+    </message>
+    <message>
+        <source>Incompatible Qt Library Error</source>
+        <translation>互換性のない Qt ライブラリエラー</translation>
     </message>
 </context>
 <context>
@@ -513,6 +513,28 @@ Press ESC to cancel</source>
         <comment>CUPS Banner page</comment>
         <translation>最高機密</translation>
     </message>
+    <message>
+        <source>Scheduled &amp;printing:</source>
+        <translation>予約印刷(&amp;P) :</translation>
+    </message>
+    <message>
+        <source>&amp;Billing information:</source>
+        <translation>請求情報(&amp;B) :</translation>
+    </message>
+    <message>
+        <source>Job &amp;priority:</source>
+        <translation>ジョブの優先度(&amp;P) :</translation>
+    </message>
+    <message>
+        <source>&amp;Start:</source>
+        <comment>Banner page at start</comment>
+        <translation>開始(&amp;S) :</translation>
+    </message>
+    <message>
+        <source>&amp;End:</source>
+        <comment>Banner page at end</comment>
+        <translation>終了(&amp;E) :</translation>
+    </message>
 </context>
 <context>
     <name>QDB2Driver</name>
@@ -707,6 +729,10 @@ Press ESC to cancel</source>
 <context>
     <name>QErrorMessage</name>
     <message>
+        <source>An error occurred</source>
+        <translation>エラーが発生しました</translation>
+    </message>
+    <message>
         <source>Debug Message:</source>
         <translation>デバッグメッセージ:</translation>
     </message>
@@ -733,10 +759,6 @@ Press ESC to cancel</source>
     <message>
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
-    </message>
-    <message>
-        <source>An error occurred</source>
-        <translation>エラーが発生しました</translation>
     </message>
 </context>
 <context>
@@ -978,6 +1000,14 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Remove</source>
         <translation>削除</translation>
+    </message>
+    <message>
+        <source>&amp;Look in:</source>
+        <translation>検索先(&amp;L) :</translation>
+    </message>
+    <message>
+        <source>Files of &amp;type:</source>
+        <translation>ファイルの種類(&amp;T) :</translation>
     </message>
 </context>
 <context>
@@ -1695,6 +1725,10 @@ Do you want to delete it anyway?</source>
 <context>
     <name>QLibrary</name>
     <message>
+        <source>Failed to extract plugin meta data from &apos;%1&apos;: %2</source>
+        <translation>&apos;%1&apos; からプラグインのメタデータを抽出できませんでした: %2</translation>
+    </message>
+    <message>
         <source>The shared library was not found.</source>
         <translation>共有ライブラリが見つかりませんでした。</translation>
     </message>
@@ -1741,34 +1775,6 @@ Do you want to delete it anyway?</source>
     <message>
         <source>file is corrupt</source>
         <translation>ファイルが破損しています</translation>
-    </message>
-    <message>
-        <source>file too small</source>
-        <translation>ファイルが小さすぎます</translation>
-    </message>
-    <message>
-        <source>no suitable architecture in fat binary</source>
-        <translation>ファットバイナリに適切なアーキテクチャが含まれていません</translation>
-    </message>
-    <message>
-        <source>invalid magic %1</source>
-        <translation>無効なマジック %1</translation>
-    </message>
-    <message>
-        <source>wrong architecture</source>
-        <translation>アーキテクチャが異なります</translation>
-    </message>
-    <message>
-        <source>not a dynamic library</source>
-        <translation>ダイナミックライブラリではありません</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; is not a Qt plugin</source>
-        <translation>&apos;%1&apos; は Qt のプラグインではありません</translation>
-    </message>
-    <message>
-        <source>Failed to extract plugin meta data from &apos;%1&apos;: %2</source>
-        <translation>&apos;%1&apos; からプラグインのメタデータを抽出できませんでした: %2</translation>
     </message>
     <message>
         <source>file is for the wrong endianness</source>
@@ -1819,6 +1825,10 @@ Do you want to delete it anyway?</source>
         <translation>セクション名がファイルの末尾を超えています</translation>
     </message>
     <message>
+        <source>file too small</source>
+        <translation>ファイルが小さすぎます</translation>
+    </message>
+    <message>
         <source>unexpected program header entry size (%1)</source>
         <translation>予期しないプログラム ヘッダー エントリ サイズ (%1)</translation>
     </message>
@@ -1829,6 +1839,26 @@ Do you want to delete it anyway?</source>
     <message>
         <source>e_shstrndx greater than the number of sections e_shnum (%1 &gt;= %2)</source>
         <translation>e_shstrndx がセクション数 e_shnum より大きい (%1 &gt;= %2)</translation>
+    </message>
+    <message>
+        <source>no suitable architecture in fat binary</source>
+        <translation>ファットバイナリに適切なアーキテクチャが含まれていません</translation>
+    </message>
+    <message>
+        <source>invalid magic %1</source>
+        <translation>無効なマジック %1</translation>
+    </message>
+    <message>
+        <source>wrong architecture</source>
+        <translation>アーキテクチャが異なります</translation>
+    </message>
+    <message>
+        <source>not a dynamic library</source>
+        <translation>ダイナミックライブラリではありません</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a Qt plugin</source>
+        <translation>&apos;%1&apos; は Qt のプラグインではありません</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid Windows DLL (%2)</source>
@@ -2497,16 +2527,16 @@ Do you want to delete it anyway?</source>
         <translation>ラストレコードを取得できません</translation>
     </message>
     <message>
-        <source>QODBCResult::reset: Unable to set &apos;SQL_ATTR_CURSOR_TYPE&apos; as statement attribute. Please check your ODBC driver configuration</source>
-        <translation>QODBCResult::reset: &apos;SQL_ATTR_CURSOR_TYPE&apos; をステートメント属性として設定できません。ODBC ドライバーの設定を確認してください</translation>
-    </message>
-    <message>
         <source>QODBCResult::reset: Unable to set &apos;SQL_CURSOR_STATIC&apos; as statement attribute. Please check your ODBC driver configuration</source>
         <translation>QODBCResult::reset: ステートメントの属性として &apos;SQL_CURSOR_STATUS&apos; を設定できません。ODBC ドライバの構成を確認してください</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
         <translation>ステートメントを実行できません</translation>
+    </message>
+    <message>
+        <source>QODBCResult::reset: Unable to set &apos;SQL_ATTR_CURSOR_TYPE&apos; as statement attribute. Please check your ODBC driver configuration</source>
+        <translation>QODBCResult::reset: &apos;SQL_ATTR_CURSOR_TYPE&apos; をステートメント属性として設定できません。ODBC ドライバーの設定を確認してください</translation>
     </message>
     <message>
         <source>Unable to fetch</source>
@@ -2567,6 +2597,10 @@ Do you want to delete it anyway?</source>
 <context>
     <name>QPSQLResult</name>
     <message>
+        <source>Query results lost - probably discarded on executing another SQL query.</source>
+        <translation>クエリ結果が失われました。別の SQL クエリの実行時に破棄された可能性があります。</translation>
+    </message>
+    <message>
         <source>Unable to create query</source>
         <translation>クエリーを作成できません</translation>
     </message>
@@ -2581,10 +2615,6 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Unable to prepare statement</source>
         <translation>プリペアドステートメントを作成できません</translation>
-    </message>
-    <message>
-        <source>Query results lost - probably discarded on executing another SQL query.</source>
-        <translation>クエリ結果が失われました。別の SQL クエリの実行時に破棄された可能性があります。</translation>
     </message>
 </context>
 <context>
@@ -2722,6 +2752,14 @@ Do you want to delete it anyway?</source>
         <source>CC</source>
         <extracomment>Unit &apos;Cicero&apos;</extracomment>
         <translation>CC</translation>
+    </message>
+    <message>
+        <source>Page &amp;order:</source>
+        <translation>ページ順(&amp;O) :</translation>
+    </message>
+    <message>
+        <source>Pages &amp;per sheet:</source>
+        <translation>1枚あたりのページ数(&amp;P) :</translation>
     </message>
 </context>
 <context>
@@ -3640,6 +3678,10 @@ Please turn one of those options off.</source>
         <translation>ページまたは範囲をカンマで区切って指定します。範囲は2つの数字をハイフンで区切って指定します。例：3,5-7,9 は、3、5、6、7、9ページを印刷します。</translation>
     </message>
     <message>
+        <source>Page &amp;Set:</source>
+        <translation>ページ設定(&amp;S) :</translation>
+    </message>
+    <message>
         <source>Double Sided Printing</source>
         <translation>両面印刷</translation>
     </message>
@@ -3718,6 +3760,22 @@ Please turn one of those options off.</source>
         <translation>プログラムが指定されていません</translation>
     </message>
     <message>
+        <source>Child process set up failed: %1: %2</source>
+        <translation>子プロセスのセットアップに失敗しました: %1: %2</translation>
+    </message>
+    <message>
+        <source>Child process modifier threw an exception: %1</source>
+        <translation>子プロセス修飾子が例外をスローしました: %1</translation>
+    </message>
+    <message>
+        <source>Child process modifier reported error: %1</source>
+        <translation>子プロセス修飾子がエラーを報告しました: %1</translation>
+    </message>
+    <message>
+        <source>Child process modifier reported error: %1: %2</source>
+        <translation>子プロセス修飾子がエラーを報告しました: %1: %2</translation>
+    </message>
+    <message>
         <source>Could not open input redirection for reading</source>
         <translation>読み込み用に入力リダイレクトを開けませんでした</translation>
     </message>
@@ -3736,22 +3794,6 @@ Please turn one of those options off.</source>
     <message>
         <source>Process failed to start: %1</source>
         <translation>プロセスの起動に失敗しました: %1</translation>
-    </message>
-    <message>
-        <source>Child process set up failed: %1: %2</source>
-        <translation>子プロセスのセットアップに失敗しました: %1: %2</translation>
-    </message>
-    <message>
-        <source>Child process modifier threw an exception: %1</source>
-        <translation>子プロセス修飾子が例外をスローしました: %1</translation>
-    </message>
-    <message>
-        <source>Child process modifier reported error: %1</source>
-        <translation>子プロセス修飾子がエラーを報告しました: %1</translation>
-    </message>
-    <message>
-        <source>Child process modifier reported error: %1: %2</source>
-        <translation>子プロセス修飾子がエラーを報告しました: %1: %2</translation>
     </message>
 </context>
 <context>
@@ -3790,6 +3832,110 @@ Please turn one of those options off.</source>
     <message>
         <source>missing terminating ] for character class</source>
         <translation>文字クラスを閉じる ] がありません</translation>
+    </message>
+    <message>
+        <source>range out of order in character class</source>
+        <translation>文字クラスの範囲の順番が間違っています</translation>
+    </message>
+    <message>
+        <source>internal error: unexpected repeat</source>
+        <translation>内部エラー: 予期しない繰り返し</translation>
+    </message>
+    <message>
+        <source>unrecognized character after (? or (?-</source>
+        <translation>認識できない文字が (? か (?- の後にあります</translation>
+    </message>
+    <message>
+        <source>POSIX named classes are supported only within a class</source>
+        <translation>POSIX の名前付きクラスは文字クラスの中でだけサポートされています</translation>
+    </message>
+    <message>
+        <source>reference to non-existent subpattern</source>
+        <translation>存在しないサブパターンを参照しています</translation>
+    </message>
+    <message>
+        <source>regular expression is too large</source>
+        <translation>正規表現が大きすぎます</translation>
+    </message>
+    <message>
+        <source>internal error: code overflow</source>
+        <translation>内部エラー: コードオーバーフロー</translation>
+    </message>
+    <message>
+        <source>lookbehind assertion is not fixed length</source>
+        <translation>戻り読み(lookbehind)アサーションが固定長ではありません</translation>
+    </message>
+    <message>
+        <source>unknown POSIX class name</source>
+        <translation>未知の POSIX クラスの名前です</translation>
+    </message>
+    <message>
+        <source>POSIX collating elements are not supported</source>
+        <translation>POSIX の照合順序の要素はサポートされていません</translation>
+    </message>
+    <message>
+        <source>unrecognized character after (?P</source>
+        <translation>認識できない文字が (?P の後にあります</translation>
+    </message>
+    <message>
+        <source>malformed \P or \p sequence</source>
+        <translation>不正な \P あるいは \p のシーケンスです</translation>
+    </message>
+    <message>
+        <source>unknown property name after \P or \p</source>
+        <translation>\P あるいは \p の後に未知のプロパティ名があります</translation>
+    </message>
+    <message>
+        <source>too many named subpatterns (maximum 10000)</source>
+        <translation>名前付きサブパターンが多すぎます(10000個以下にしてください)</translation>
+    </message>
+    <message>
+        <source>internal error: overran compiling workspace</source>
+        <translation>内部エラー: コンパイル作業領域をオーバーランしました</translation>
+    </message>
+    <message>
+        <source>internal error: previously-checked referenced subpattern not found</source>
+        <translation>内部エラー: 直前にチェックしたサブパターンへのリファレンスが見つかりません</translation>
+    </message>
+    <message>
+        <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
+        <translation>\g の後に波括弧 {} や山括弧 &lt;&gt; や引用符 &apos; でくくられた名前や数値、あるいはただの数字がありません</translation>
+    </message>
+    <message>
+        <source>subpattern name expected</source>
+        <translation>サブパターンに名前が必要です</translation>
+    </message>
+    <message>
+        <source>different names for subpatterns of the same number are not allowed</source>
+        <translation>同じ番号のサブパターンの名前が違うことは許可されていません</translation>
+    </message>
+    <message>
+        <source>(*MARK) must have an argument</source>
+        <translation>(*MARK) には引数が一つ必要です</translation>
+    </message>
+    <message>
+        <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
+        <translation>\g の後に波括弧 {} や山括弧 &lt;&gt; や引用符 &apos; でくくられた名前がありません</translation>
+    </message>
+    <message>
+        <source>\N is not supported in a class</source>
+        <translation>文字クラスで \N はサポートされていません</translation>
+    </message>
+    <message>
+        <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
+        <translation>許可されていないコードの Unicode です(&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
+    </message>
+    <message>
+        <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
+        <translation>(*MARK), (*PRUNE), (*SKIP), (*THEN) の名前が長すぎます</translation>
+    </message>
+    <message>
+        <source>non-hex character in \x{} (closing brace missing?)</source>
+        <translation>\x{} シーケンス内に16進数ではない文字があります(括弧を閉じ忘れていませんか?)</translation>
+    </message>
+    <message>
+        <source>non-octal character in \o{} (closing brace missing?)</source>
+        <translation>\o{} シーケンス内に8進数ではない文字があります(括弧を閉じ忘れていませんか?)</translation>
     </message>
     <message>
         <source>escape sequence is invalid in character class</source>
@@ -3906,6 +4052,10 @@ Please turn one of those options off.</source>
     <message>
         <source>DEFINE subpattern contains more than one branch</source>
         <translation>DEFINEサブパターンに複数のブランチが含まれています</translation>
+    </message>
+    <message>
+        <source>missing opening brace after \o</source>
+        <translation>\o の後に開き括弧がありません</translation>
     </message>
     <message>
         <source>internal error: unknown newline setting</source>
@@ -4209,7 +4359,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>pattern contains an item that is not supported for DFA matching</source>
-        <translation>パターンには DFA マッチングでサポートされていないアイテムが含まれています</translation>
+        <translation>パターンには DFA マッチングでサポートされていない項目が含まれています</translation>
     </message>
     <message>
         <source>workspace size exceeded in DFA matching</source>
@@ -4310,114 +4460,6 @@ Please turn one of those options off.</source>
     <message>
         <source>INTERNAL ERROR: invalid substring offset</source>
         <translation>内部エラー: 無効な部分文字列オフセット</translation>
-    </message>
-    <message>
-        <source>range out of order in character class</source>
-        <translation>文字クラスの範囲の順番が間違っています</translation>
-    </message>
-    <message>
-        <source>internal error: unexpected repeat</source>
-        <translation>内部エラー: 予期しない繰り返し</translation>
-    </message>
-    <message>
-        <source>unrecognized character after (? or (?-</source>
-        <translation>認識できない文字が (? か (?- の後にあります</translation>
-    </message>
-    <message>
-        <source>POSIX named classes are supported only within a class</source>
-        <translation>POSIX の名前付きクラスは文字クラスの中でだけサポートされています</translation>
-    </message>
-    <message>
-        <source>reference to non-existent subpattern</source>
-        <translation>存在しないサブパターンを参照しています</translation>
-    </message>
-    <message>
-        <source>regular expression is too large</source>
-        <translation>正規表現が大きすぎます</translation>
-    </message>
-    <message>
-        <source>internal error: code overflow</source>
-        <translation>内部エラー: コードオーバーフロー</translation>
-    </message>
-    <message>
-        <source>lookbehind assertion is not fixed length</source>
-        <translation>戻り読み(lookbehind)アサーションが固定長ではありません</translation>
-    </message>
-    <message>
-        <source>unknown POSIX class name</source>
-        <translation>未知の POSIX クラスの名前です</translation>
-    </message>
-    <message>
-        <source>POSIX collating elements are not supported</source>
-        <translation>POSIX の照合順序の要素はサポートされていません</translation>
-    </message>
-    <message>
-        <source>unrecognized character after (?P</source>
-        <translation>認識できない文字が (?P の後にあります</translation>
-    </message>
-    <message>
-        <source>malformed \P or \p sequence</source>
-        <translation>不正な \P あるいは \p のシーケンスです</translation>
-    </message>
-    <message>
-        <source>unknown property name after \P or \p</source>
-        <translation>\P あるいは \p の後に未知のプロパティ名があります</translation>
-    </message>
-    <message>
-        <source>too many named subpatterns (maximum 10000)</source>
-        <translation>名前付きサブパターンが多すぎます(10000個以下にしてください)</translation>
-    </message>
-    <message>
-        <source>internal error: overran compiling workspace</source>
-        <translation>内部エラー: コンパイル作業領域をオーバーランしました</translation>
-    </message>
-    <message>
-        <source>internal error: previously-checked referenced subpattern not found</source>
-        <translation>内部エラー: 直前にチェックしたサブパターンへのリファレンスが見つかりません</translation>
-    </message>
-    <message>
-        <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
-        <translation>\g の後に波括弧 {} や山括弧 &lt;&gt; や引用符 &apos; でくくられた名前や数値、あるいはただの数字がありません</translation>
-    </message>
-    <message>
-        <source>subpattern name expected</source>
-        <translation>サブパターンに名前が必要です</translation>
-    </message>
-    <message>
-        <source>different names for subpatterns of the same number are not allowed</source>
-        <translation>同じ番号のサブパターンの名前が違うことは許可されていません</translation>
-    </message>
-    <message>
-        <source>(*MARK) must have an argument</source>
-        <translation>(*MARK) には引数が一つ必要です</translation>
-    </message>
-    <message>
-        <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
-        <translation>\g の後に波括弧 {} や山括弧 &lt;&gt; や引用符 &apos; でくくられた名前がありません</translation>
-    </message>
-    <message>
-        <source>\N is not supported in a class</source>
-        <translation>文字クラスで \N はサポートされていません</translation>
-    </message>
-    <message>
-        <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
-        <translation>許可されていないコードの Unicode です(&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</translation>
-    </message>
-    <message>
-        <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
-        <translation>(*MARK), (*PRUNE), (*SKIP), (*THEN) の名前が長すぎます</translation>
-    </message>
-    <message>
-        <source>non-hex character in \x{} (closing brace missing?)</source>
-        <translation>\x{} シーケンス内に16進数ではない文字があります(括弧を閉じ忘れていませんか?)</translation>
-    </message>
-    <message>
-        <source>non-octal character in \o{} (closing brace missing?)</source>
-        <translation>\o{} シーケンス内に8進数ではない文字があります(括弧を閉じ忘れていませんか?)</translation>
-    </message>
-    <message>
-        <source>missing opening brace after \o</source>
-        <translation>\o の後に開き括弧がありません</translation>
     </message>
     <message>
         <source>parentheses are too deeply nested</source>
@@ -4563,6 +4605,14 @@ Please turn one of those options off.</source>
 <context>
     <name>QSharedMemory</name>
     <message>
+        <source>%1: unsupported key type</source>
+        <translation>%1: サポートされていないキータイプ</translation>
+    </message>
+    <message>
+        <source>%1: unable to set key on lock (%2)</source>
+        <translation>%1: ロックにキーを設定できません (%2)</translation>
+    </message>
+    <message>
         <source>%1: create size is less then 0</source>
         <translation>%1: 0 より小さいサイズの共有メモリは作成できません</translation>
     </message>
@@ -4625,14 +4675,6 @@ Please turn one of those options off.</source>
     <message>
         <source>%1: size query failed</source>
         <translation>%1: サイズのクエリーに失敗しました</translation>
-    </message>
-    <message>
-        <source>%1: unsupported key type</source>
-        <translation>%1: サポートされていないキータイプ</translation>
-    </message>
-    <message>
-        <source>%1: unable to set key on lock (%2)</source>
-        <translation>%1: ロックにキーを設定できません (%2)</translation>
     </message>
 </context>
 <context>
@@ -5273,10 +5315,6 @@ Please turn one of those options off.</source>
         <translation>選択</translation>
     </message>
     <message>
-        <source>Control</source>
-        <translation>コントロール</translation>
-    </message>
-    <message>
         <source>View</source>
         <translation>表示</translation>
     </message>
@@ -5636,6 +5674,10 @@ Please turn one of those options off.</source>
         <translation>タッチパッドをオフ</translation>
     </message>
     <message>
+        <source>Control</source>
+        <translation>コントロール</translation>
+    </message>
+    <message>
         <source>Ctrl</source>
         <translation>Ctrl</translation>
     </message>
@@ -5789,7 +5831,7 @@ Please turn one of those options off.</source>
     <message>
         <source>menu item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>メニューアイテム</translation>
+        <translation>メニュー項目</translation>
     </message>
     <message>
         <source>tool tip</source>
@@ -5889,7 +5931,7 @@ Please turn one of those options off.</source>
     <message>
         <source>list item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>リストアイテム</translation>
+        <translation>リスト項目</translation>
     </message>
     <message>
         <source>tree</source>
@@ -5899,7 +5941,7 @@ Please turn one of those options off.</source>
     <message>
         <source>tree item</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>ツリーアイテム</translation>
+        <translation>ツリー項目</translation>
     </message>
     <message>
         <source>page tab</source>
@@ -5940,6 +5982,11 @@ Please turn one of those options off.</source>
         <source>check box</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>チェックボックス</translation>
+    </message>
+    <message>
+        <source>switch</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>スイッチ</translation>
     </message>
     <message>
         <source>radio button</source>
@@ -6104,6 +6151,10 @@ Please turn one of those options off.</source>
 </context>
 <context>
     <name>QSslSocket</name>
+    <message>
+        <source>Error when setting the OpenSSL configuration (%1)</source>
+        <translation>OpenSSL 構成の設定中にエラーが発生しました (%1)</translation>
+    </message>
     <message>
         <source>Error when setting the elliptic curves (%1)</source>
         <translation>楕円曲線(%1)の設定時にエラーが発生しました</translation>
@@ -6385,10 +6436,6 @@ Please turn one of those options off.</source>
         <translation>SSL ハンドシェーク時にエラーが発生しました: %1</translation>
     </message>
     <message>
-        <source>Error when setting the OpenSSL configuration (%1)</source>
-        <translation>OpenSSL 構成の設定中にエラーが発生しました (%1)</translation>
-    </message>
-    <message>
         <source>TLS initialization failed</source>
         <translation>TLSの初期化に失敗しました</translation>
     </message>
@@ -6608,6 +6655,10 @@ Please turn one of those options off.</source>
 <context>
     <name>QSystemSemaphore</name>
     <message>
+        <source>%1: unsupported key type</source>
+        <translation>%1: サポートされていないキータイプ</translation>
+    </message>
+    <message>
         <source>%1: permission denied</source>
         <translation>%1: 許可されていません</translation>
     </message>
@@ -6630,10 +6681,6 @@ Please turn one of those options off.</source>
     <message>
         <source>%1: unknown error: %2</source>
         <translation>%1: 不明なエラー: %2</translation>
-    </message>
-    <message>
-        <source>%1: unsupported key type</source>
-        <translation>%1: サポートされていないキータイプ</translation>
     </message>
     <message>
         <source>%1: key is empty</source>
@@ -6885,16 +6932,16 @@ Please turn one of those options off.</source>
 <context>
     <name>QWindowsDirect2DIntegration</name>
     <message>
-        <source>Cannot load direct2d platform plugin</source>
-        <translation>direct2d プラットフォームプラグインを読み込めません</translation>
-    </message>
-    <message>
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
 The minimum Direct2D version required is %1. The Direct2D version on this system is %2.</source>
         <translation>このシステムの Direct2D バージョンが古すぎるため、Qt は Direct2D プラットフォームプラグインを読み込めません。このプラットフォームプラグインの最小システム要件は、Windows 7 SP1（プラットフォームアップデート適用済み）です。
 
 必要な Direct2D の最小バージョンは %1 です。このシステムの Direct2D バージョンは %2 です。</translation>
+    </message>
+    <message>
+        <source>Cannot load direct2d platform plugin</source>
+        <translation>direct2d プラットフォームプラグインを読み込めません</translation>
     </message>
 </context>
 <context>
@@ -9519,29 +9566,6 @@ application/onix-message-short+xml</extracomment>
     </message>
 </context>
 <context>
-    <name>Assets::Downloader::AssetDownloader</name>
-    <message>
-        <source>Downloading JSON file...</source>
-        <translation>JSON ファイルをダウンロードしています...</translation>
-    </message>
-    <message>
-        <source>Downloading zip file...</source>
-        <translation>zip ファイルをダウンロードしています...</translation>
-    </message>
-    <message>
-        <source>Unzipping...</source>
-        <translation>解凍中...</translation>
-    </message>
-    <message>
-        <source>Downloading assets...</source>
-        <translation>アセットをダウンロードしています...</translation>
-    </message>
-    <message>
-        <source>Copying assets...</source>
-        <translation>アセットをコピーしています...</translation>
-    </message>
-</context>
-<context>
     <name></name>
     <message>
         <source>Cannot open %1 for input</source>
@@ -10021,6 +10045,14 @@ application/onix-message-short+xml</extracomment>
     </message>
 </context>
 <context>
+    <name>QAccessibleColorWellItem</name>
+    <message>
+        <source>RGB %1, %2, %3</source>
+        <extracomment>Color specified via its 3 RGB components (red, green, blue)</extracomment>
+        <translation>RGB %1, %2, %3</translation>
+    </message>
+</context>
+<context>
     <name>QProgressBar</name>
     <message>
         <source>%p%</source>
@@ -10089,6 +10121,29 @@ application/onix-message-short+xml</extracomment>
     <message>
         <source>Error occurred while processing notation declaration</source>
         <translation>表記宣言の処理中にエラーが発生しました</translation>
+    </message>
+</context>
+<context>
+    <name>Assets::Downloader::AssetDownloader</name>
+    <message>
+        <source>Downloading JSON file...</source>
+        <translation>JSON ファイルをダウンロードしています...</translation>
+    </message>
+    <message>
+        <source>Downloading zip file...</source>
+        <translation>zip ファイルをダウンロードしています...</translation>
+    </message>
+    <message>
+        <source>Unzipping...</source>
+        <translation>解凍中...</translation>
+    </message>
+    <message>
+        <source>Downloading assets...</source>
+        <translation>アセットをダウンロードしています...</translation>
+    </message>
+    <message>
+        <source>Copying assets...</source>
+        <translation>アセットをコピーしています...</translation>
     </message>
 </context>
 </TS>

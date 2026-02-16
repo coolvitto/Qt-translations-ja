@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ja">
+<TS version="2.1" language="ja_JP">
 <context>
     <name>AbstractFindWidget</name>
     <message>
@@ -402,11 +402,11 @@
     </message>
     <message>
         <source>Change Form Layout Item Geometry</source>
-        <translation>フォームレイアウトのアイテムの座標を変更</translation>
+        <translation>フォームレイアウトの項目の座標を変更</translation>
     </message>
     <message>
         <source>Change Layout Item Geometry</source>
-        <translation>レイアウトのアイテムの座標を変更</translation>
+        <translation>レイアウトの項目の座標を変更</translation>
     </message>
     <message>
         <source>Delete Subwindow</source>
@@ -625,6 +625,14 @@
 <context>
     <name>Designer</name>
     <message>
+        <source>%1 does not exist.</source>
+        <translation>%1 は存在しません。</translation>
+    </message>
+    <message>
+        <source>Unable to launch %1: %2</source>
+        <translation>%1 を起動できません: %2</translation>
+    </message>
+    <message>
         <source>%1 timed out.</source>
         <translation>%1 はタイムアウトしました。</translation>
     </message>
@@ -643,14 +651,6 @@
     <message>
         <source>This file cannot be read because the extra info extension failed to load.</source>
         <translation>このファイルは読めません。追加情報の拡張のロードに失敗したからです。</translation>
-    </message>
-    <message>
-        <source>%1 does not exist.</source>
-        <translation>%1 は存在しません。</translation>
-    </message>
-    <message>
-        <source>Unable to launch %1: %2</source>
-        <translation>%1 を起動できません: %2</translation>
     </message>
 </context>
 <context>
@@ -1054,6 +1054,14 @@
         <translation>IDベース</translation>
     </message>
     <message>
+        <source>ID-based label:</source>
+        <translation>IDベース ラベル :</translation>
+    </message>
+    <message>
+        <source>Enter a label name to group id based translations of the form (optional)</source>
+        <translation>フォームのIDベースの翻訳をグループ化するためのラベル名を入力します (任意)</translation>
+    </message>
+    <message>
         <source>Connections</source>
         <translation>接続</translation>
     </message>
@@ -1064,10 +1072,6 @@
 </context>
 <context>
     <name>IconSelector</name>
-    <message>
-        <source>All Pixmaps (</source>
-        <translation>すべてのピックスマップ (</translation>
-    </message>
     <message>
         <source>Normal Off</source>
         <translation>通常 オフ</translation>
@@ -1099,6 +1103,10 @@
     <message>
         <source>Selected On</source>
         <translation>選択済み オン</translation>
+    </message>
+    <message>
+        <source>All Pixmaps (</source>
+        <translation>すべてのピックスマップ (</translation>
     </message>
 </context>
 <context>
@@ -1454,14 +1462,6 @@ UI ファイルの記述が矛盾しています。</translation>
         <translation>終了(&amp;Q)</translation>
     </message>
     <message>
-        <source>View &amp;C++ Code...</source>
-        <translation>C++ コードを表示(&amp;C)...</translation>
-    </message>
-    <message>
-        <source>View &amp;Python Code...</source>
-        <translation>Python コードを表示(&amp;P)...</translation>
-    </message>
-    <message>
         <source>&amp;Minimize</source>
         <translation>最小化(&amp;M)</translation>
     </message>
@@ -1526,26 +1526,20 @@ UI ファイルの記述が矛盾しています。</translation>
         <translation>フォームを開く</translation>
     </message>
     <message>
-        <source>Save Form</source>
-        <translation>フォームを保存</translation>
-    </message>
-    <message>
-        <source>It was not possible to write the file %1 to disk.
-Reason: %2</source>
-        <translation>ファイル %1 をディスクに書き込むことができませんでした。
-理由: %2</translation>
-    </message>
-    <message>
-        <source>The backup file %1 could not be written: %2</source>
-        <translation>バックアップファイル %1 を書き込めませんでした: %2</translation>
-    </message>
-    <message>
         <source>Designer UI files (*.%1);;All Files (*)</source>
         <translation>Designer UI ファイル(*.%1);;すべてのファイル (*)</translation>
     </message>
     <message>
         <source>Save Form As</source>
         <translation>名前を付けてフォームを保存</translation>
+    </message>
+    <message>
+        <source>View &amp;C++ Code...</source>
+        <translation>C++ コードを表示(&amp;C)...</translation>
+    </message>
+    <message>
+        <source>View &amp;Python Code...</source>
+        <translation>Python コードを表示(&amp;P)...</translation>
     </message>
     <message>
         <source>Designer</source>
@@ -1602,8 +1596,22 @@ Would you like to retry or select a different file?</source>
         <translation>新しいファイルを選択</translation>
     </message>
     <message>
+        <source>Save Form</source>
+        <translation>フォームを保存</translation>
+    </message>
+    <message>
         <source>Could not write file</source>
         <translation>ファイルに書き込めませんでした</translation>
+    </message>
+    <message>
+        <source>It was not possible to write the file %1 to disk.
+Reason: %2</source>
+        <translation>ファイル %1 をディスクに書き込むことができませんでした。
+理由: %2</translation>
+    </message>
+    <message>
+        <source>The backup file %1 could not be written: %2</source>
+        <translation>バックアップファイル %1 を書き込めませんでした: %2</translation>
     </message>
     <message>
         <source>Assistant</source>
@@ -3316,12 +3324,12 @@ Do you want overwrite the template?</source>
 <context>
     <name>WidgetDataBase</name>
     <message>
-        <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
-        <translation>ファイルに含まれるカスタムウィジェット &apos;%1&apos; の基底クラス(%2)が現在のウィジェットデータベースの基底クラス(%3)と異なります。ウィジェットデータベースは変更していません。</translation>
-    </message>
-    <message>
         <source>Abstract base class that cannot be instantiated. For promotion/custom widget usage only.</source>
         <translation>インスタンス化できない抽象基本クラス。プロモーション/カスタムウィジェットでのみ使用できます。</translation>
+    </message>
+    <message>
+        <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
+        <translation>ファイルに含まれるカスタムウィジェット &apos;%1&apos; の基底クラス(%2)が現在のウィジェットデータベースの基底クラス(%3)と異なります。ウィジェットデータベースは変更していません。</translation>
     </message>
 </context>
 <context>
@@ -3520,10 +3528,6 @@ Do you want overwrite the template?</source>
         <translation>すべてコピー</translation>
     </message>
     <message>
-        <source>%1 - [%2 Code]</source>
-        <translation>%1 - [%2 コード]</translation>
-    </message>
-    <message>
         <source>A temporary form file could not be created in %1.</source>
         <translation>一時フォームファイルを %1に作成できませんでした。</translation>
     </message>
@@ -3534,6 +3538,10 @@ Do you want overwrite the template?</source>
     <message>
         <source>Save Code</source>
         <translation>コードを保存</translation>
+    </message>
+    <message>
+        <source>%1 - [%2 Code]</source>
+        <translation>%1 - [%2 コード]</translation>
     </message>
     <message>
         <source>The file %1 could not be opened: %2</source>
@@ -3559,7 +3567,7 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::ComboBoxTaskMenu</name>
     <message>
         <source>Edit Items...</source>
-        <translation>アイテムを編集...</translation>
+        <translation>項目を編集...</translation>
     </message>
     <message>
         <source>Change Combobox Contents</source>
@@ -3744,10 +3752,6 @@ Do you want overwrite the template?</source>
         <translation>親から継承</translation>
     </message>
     <message>
-        <source>XDG Theme</source>
-        <translation>XDG テーマ</translation>
-    </message>
-    <message>
         <source>Horizontal</source>
         <translation>横方向</translation>
     </message>
@@ -3758,6 +3762,10 @@ Do you want overwrite the template?</source>
     <message>
         <source>Theme</source>
         <translation>テーマ</translation>
+    </message>
+    <message>
+        <source>XDG Theme</source>
+        <translation>XDG テーマ</translation>
     </message>
     <message>
         <source>Normal Off</source>
@@ -4311,11 +4319,11 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::ItemListEditor</name>
     <message>
         <source>Items List</source>
-        <translation>アイテム一覧</translation>
+        <translation>項目一覧</translation>
     </message>
     <message>
         <source>New Item</source>
-        <translation>新しいアイテム</translation>
+        <translation>新しい項目</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -4323,7 +4331,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Delete Item</source>
-        <translation>アイテムを削除</translation>
+        <translation>項目を削除</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -4331,7 +4339,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Move Item Up</source>
-        <translation>このアイテムを上へ</translation>
+        <translation>この項目を上へ</translation>
     </message>
     <message>
         <source>U</source>
@@ -4339,7 +4347,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Move Item Down</source>
-        <translation>このアイテムを下へ</translation>
+        <translation>この項目を下へ</translation>
     </message>
     <message>
         <source>D</source>
@@ -4383,7 +4391,7 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::ListWidgetEditor</name>
     <message>
         <source>New Item</source>
-        <translation>新しいアイテム</translation>
+        <translation>新しい項目</translation>
     </message>
     <message>
         <source>Edit List Widget</source>
@@ -4398,7 +4406,7 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::ListWidgetTaskMenu</name>
     <message>
         <source>Edit Items...</source>
-        <translation>アイテムを編集...</translation>
+        <translation>項目を編集...</translation>
     </message>
     <message>
         <source>Change List Contents</source>
@@ -4630,12 +4638,12 @@ Please select another name.</source>
 <context>
     <name>qdesigner_internal::ObjectInspector</name>
     <message>
-        <source>Change Current Page</source>
-        <translation>現在のページを変更</translation>
-    </message>
-    <message>
         <source>Filter</source>
         <translation>フィルター</translation>
+    </message>
+    <message>
+        <source>Change Current Page</source>
+        <translation>現在のページを変更</translation>
     </message>
 </context>
 <context>
@@ -5044,7 +5052,7 @@ ate the goose who was loose.</source>
     <message>
         <source>Item Views</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>アイテムビュー</translation>
+        <translation>項目ビュー</translation>
     </message>
     <message>
         <source>Column 1</source>
@@ -5678,11 +5686,11 @@ Class: %2</source>
     </message>
     <message>
         <source>&amp;Items</source>
-        <translation>アイテム(&amp;I)</translation>
+        <translation>項目(&amp;I)</translation>
     </message>
     <message>
         <source>Table Items</source>
-        <translation>テーブルのアイテム</translation>
+        <translation>テーブルの項目</translation>
     </message>
     <message>
         <source>Properties &amp;&gt;&gt;</source>
@@ -5713,7 +5721,7 @@ Class: %2</source>
     <name>qdesigner_internal::TableWidgetTaskMenu</name>
     <message>
         <source>Edit Items...</source>
-        <translation>アイテムを編集...</translation>
+        <translation>項目を編集...</translation>
     </message>
 </context>
 <context>
@@ -5804,11 +5812,11 @@ Class: %2</source>
     </message>
     <message>
         <source>&amp;Items</source>
-        <translation>アイテム(&amp;I)</translation>
+        <translation>項目(&amp;I)</translation>
     </message>
     <message>
         <source>Tree Items</source>
-        <translation>ツリーのアイテム</translation>
+        <translation>ツリーの項目</translation>
     </message>
     <message>
         <source>1</source>
@@ -5816,7 +5824,7 @@ Class: %2</source>
     </message>
     <message>
         <source>New Item</source>
-        <translation>新しいアイテム</translation>
+        <translation>新しい項目</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -5824,15 +5832,15 @@ Class: %2</source>
     </message>
     <message>
         <source>New Subitem</source>
-        <translation>新しいサブアイテム</translation>
+        <translation>新しいサブ項目</translation>
     </message>
     <message>
         <source>New &amp;Subitem</source>
-        <translation>新しいサブアイテム(&amp;S)</translation>
+        <translation>新しいサブ項目(&amp;S)</translation>
     </message>
     <message>
         <source>Delete Item</source>
-        <translation>アイテムを削除</translation>
+        <translation>項目を削除</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -5840,7 +5848,7 @@ Class: %2</source>
     </message>
     <message>
         <source>Move Item Left (before Parent Item)</source>
-        <translation>このアイテムを左へ（親アイテムの前に）</translation>
+        <translation>この項目を左へ（親項目の前に）</translation>
     </message>
     <message>
         <source>L</source>
@@ -5848,7 +5856,7 @@ Class: %2</source>
     </message>
     <message>
         <source>Move Item Right (as a First Subitem of the Next Sibling Item)</source>
-        <translation>このアイテムを右へ（すぐ後の兄弟アイテムの最初のサブアイテム）</translation>
+        <translation>この項目を右へ（すぐ後の兄弟項目の最初のサブ項目）</translation>
     </message>
     <message>
         <source>R</source>
@@ -5856,7 +5864,7 @@ Class: %2</source>
     </message>
     <message>
         <source>Move Item Up</source>
-        <translation>このアイテムを上へ</translation>
+        <translation>この項目を上へ</translation>
     </message>
     <message>
         <source>U</source>
@@ -5864,7 +5872,7 @@ Class: %2</source>
     </message>
     <message>
         <source>Move Item Down</source>
-        <translation>このアイテムを下へ</translation>
+        <translation>この項目を下へ</translation>
     </message>
     <message>
         <source>D</source>
@@ -5899,7 +5907,7 @@ Class: %2</source>
     <name>qdesigner_internal::TreeWidgetTaskMenu</name>
     <message>
         <source>Edit Items...</source>
-        <translation>アイテムを編集...</translation>
+        <translation>項目を編集...</translation>
     </message>
 </context>
 <context>

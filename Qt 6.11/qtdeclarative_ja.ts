@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ja">
+<TS version="2.1" language="ja_JP">
 <context>
     <name>Object</name>
+    <message>
+        <source>Duplicate scoped enum name</source>
+        <translation>重複したスコープ付き列挙名</translation>
+    </message>
     <message>
         <source>Duplicate signal name</source>
         <translation>シグナルの名前が重複しています</translation>
@@ -39,25 +43,9 @@
         <source>Property value set multiple times</source>
         <translation>複数回プロパティに値を割り当てています</translation>
     </message>
-    <message>
-        <source>Duplicate scoped enum name</source>
-        <translation>重複したスコープ付き列挙名</translation>
-    </message>
 </context>
 <context>
     <name>QQmlCodeGenerator</name>
-    <message>
-        <source>Duplicate method name</source>
-        <translation>メソッドの名前が重複しています</translation>
-    </message>
-    <message>
-        <source>Method names cannot begin with an upper case letter</source>
-        <translation>メソッドの名前を大文字から始めることはできません</translation>
-    </message>
-    <message>
-        <source>Illegal method name</source>
-        <translation>メソッドの名前が無効です</translation>
-    </message>
     <message>
         <source>Property value set multiple times</source>
         <translation>複数回プロパティに値を割り当てています</translation>
@@ -65,22 +53,6 @@
     <message>
         <source>Expected type name</source>
         <translation>予期する型の名前</translation>
-    </message>
-    <message>
-        <source>Scoped enum names must begin with an upper case letter</source>
-        <translation>スコープ付き列挙型の名前は大文字で始まる必要があります</translation>
-    </message>
-    <message>
-        <source>Enum names must begin with an upper case letter</source>
-        <translation>列挙名は大文字で始まる必要があります</translation>
-    </message>
-    <message>
-        <source>Enum value must be an integer</source>
-        <translation>列挙値は整数である必要があります</translation>
-    </message>
-    <message>
-        <source>Enum value out of range</source>
-        <translation>列挙値が範囲外です</translation>
     </message>
     <message>
         <source>Signal names cannot begin with an upper case letter</source>
@@ -105,6 +77,34 @@
     <message>
         <source>Invalid component id specification</source>
         <translation>無効なコンポーネント id が指定されています</translation>
+    </message>
+    <message>
+        <source>Duplicate method name</source>
+        <translation>メソッドの名前が重複しています</translation>
+    </message>
+    <message>
+        <source>Method names cannot begin with an upper case letter</source>
+        <translation>メソッドの名前を大文字から始めることはできません</translation>
+    </message>
+    <message>
+        <source>Illegal method name</source>
+        <translation>メソッドの名前が無効です</translation>
+    </message>
+    <message>
+        <source>Scoped enum names must begin with an upper case letter</source>
+        <translation>スコープ付き列挙型の名前は大文字で始まる必要があります</translation>
+    </message>
+    <message>
+        <source>Enum names must begin with an upper case letter</source>
+        <translation>列挙名は大文字で始まる必要があります</translation>
+    </message>
+    <message>
+        <source>Enum value must be an integer</source>
+        <translation>列挙値は整数である必要があります</translation>
+    </message>
+    <message>
+        <source>Enum value out of range</source>
+        <translation>列挙値が範囲外です</translation>
     </message>
     <message>
         <source>Invalid empty ID</source>
@@ -240,11 +240,11 @@
     </message>
     <message>
         <source>resolve: from is not an unresolved item</source>
-        <translation>resolve: from は未解決アイテムではありません</translation>
+        <translation>resolve: from は未解決項目ではありません</translation>
     </message>
     <message>
         <source>resolve: to is not a model item</source>
-        <translation>resolve: to はモデルのアイテムではありません</translation>
+        <translation>resolve: to はモデルの項目ではありません</translation>
     </message>
     <message>
         <source>remove: invalid index</source>
@@ -307,7 +307,7 @@
     <name>QQmlEngine</name>
     <message>
         <source>There are still &quot;%1&quot; items in the process of being created at engine destruction.</source>
-        <translation>エンジンの終了処理を行っていますが、%1個のアイテムを作成中です。</translation>
+        <translation>エンジンの終了処理を行っていますが、%1個の項目を作成中です。</translation>
     </message>
     <message>
         <source>executeSql called outside transaction()</source>
@@ -355,6 +355,14 @@
 </context>
 <context>
     <name>QQmlListModel</name>
+    <message>
+        <source>unable to enable dynamic roles as this model is not empty</source>
+        <translation>このモデルは空ではないため、動的ロールを有効にできません</translation>
+    </message>
+    <message>
+        <source>unable to enable static roles as this model is not empty</source>
+        <translation>このモデルは空ではないため、静的ロールを有効にできません</translation>
+    </message>
     <message>
         <source>dynamic role setting must be made from the main thread, before any worker scripts are created</source>
         <translation>動的ロールの設定はメインスレッドでワーカースクリプトが生成される前に行う必要があります</translation>
@@ -407,25 +415,9 @@
         <source>ListModel: undefined property &apos;%1&apos;</source>
         <translation>ListModel: &apos;%1&apos; は未定義のプロパティです</translation>
     </message>
-    <message>
-        <source>unable to enable dynamic roles as this model is not empty</source>
-        <translation>このモデルは空ではないため、動的ロールを有効にできません</translation>
-    </message>
-    <message>
-        <source>unable to enable static roles as this model is not empty</source>
-        <translation>このモデルは空ではないため、静的ロールを有効にできません</translation>
-    </message>
 </context>
 <context>
     <name>QQmlObjectCreator</name>
-    <message>
-        <source>Cannot instantiate bound inline component in different file</source>
-        <translation>異なるファイル内のバインドされたインライン コンポーネントをインスタンス化できません</translation>
-    </message>
-    <message>
-        <source>Cannot instantiate bound component outside its creation context</source>
-        <translation>作成コンテキスト外でバインドされたコンポーネントをインスタンス化できません</translation>
-    </message>
     <message>
         <source>Cannot assign value %1 to property %2</source>
         <translation>プロパティ %2 へ値 %1 を割り当てできません</translation>
@@ -443,12 +435,20 @@
         <translation>デフォルトメソッドの無い型 %1 のオブジェクトは割り当てできません</translation>
     </message>
     <message>
-        <source>Cannot connect mismatched signal/slot %1 vs %2</source>
-        <translation>信号/スロット %1 と %2 が一致しないため接続できません</translation>
+        <source>Cannot instantiate bound inline component in different file</source>
+        <translation>異なるファイル内のバインドされたインライン コンポーネントをインスタンス化できません</translation>
     </message>
     <message>
-        <source>Cannot construct value type from given object</source>
-        <translation>指定されたオブジェクトから値型を構築できません</translation>
+        <source>Cannot instantiate bound component outside its creation context</source>
+        <translation>作成コンテキスト外でバインドされたコンポーネントをインスタンス化できません</translation>
+    </message>
+    <message>
+        <source>Using grouped property syntax on %1 which has no properties</source>
+        <translation>プロパティのない %1 にグループ化されたプロパティ構文を使用しています</translation>
+    </message>
+    <message>
+        <source>Cannot connect mismatched signal/slot %1 vs %2</source>
+        <translation>信号/スロット %1 と %2 が一致しないため接続できません</translation>
     </message>
     <message>
         <source>Cannot assign object to interface property</source>
@@ -457,6 +457,10 @@
     <message>
         <source>Cannot assign object to read only list</source>
         <translation>オブジェクトを読込専用リストに割り当てることはできません</translation>
+    </message>
+    <message>
+        <source>Cannot construct value type from given object</source>
+        <translation>指定されたオブジェクトから値型を構築できません</translation>
     </message>
     <message>
         <source>Cannot assign primitives to lists</source>
@@ -597,10 +601,6 @@
         <translation>十進数を &apos;0&apos; から始めることはできません</translation>
     </message>
     <message>
-        <source>Incomplete version number (dot but no minor)</source>
-        <translation>不完全なバージョン番号（ドットあり、マイナーなし）</translation>
-    </message>
-    <message>
         <source>At least one hexadecimal digit is required after &apos;0%1&apos;</source>
         <translation>&apos;0%1&apos; の後に少なくとも一つの16進数が必要です</translation>
     </message>
@@ -627,6 +627,10 @@
     <message>
         <source>Imported file must be a script</source>
         <translation>インポートしたファイルがスクリプトではありません</translation>
+    </message>
+    <message>
+        <source>Incomplete version number (dot but no minor)</source>
+        <translation>不完全なバージョン番号（ドットあり、マイナーなし）</translation>
     </message>
     <message>
         <source>File import requires a qualifier</source>
@@ -671,10 +675,6 @@
         <translation>無効なアタッチされたオブジェクトへの割り当て</translation>
     </message>
     <message>
-        <source>%1 properties cannot be used here</source>
-        <translation>%1プロパティはここでは使用できません</translation>
-    </message>
-    <message>
         <source>&quot;%1.%2&quot; is not available in %3 %4.%5.</source>
         <translation>%3 %4.%5 で &quot;%1.%2&quot; は利用できません。</translation>
     </message>
@@ -685,6 +685,10 @@
     <message>
         <source>Cannot assign a value directly to a grouped property</source>
         <translation>グループ化されたプロパティに直接値を割り当てできません</translation>
+    </message>
+    <message>
+        <source>%1 properties cannot be used here</source>
+        <translation>%1プロパティはここでは使用できません</translation>
     </message>
     <message>
         <source>Invalid property assignment: &quot;%1&quot; is a read-only property</source>
@@ -858,6 +862,10 @@
 <context>
     <name>QQmlRewrite</name>
     <message>
+        <source>Signal has an excessive number of parameters: %1</source>
+        <translation>シグナルには過剰な数のパラメータがあります: %1</translation>
+    </message>
+    <message>
         <source>Signal uses unnamed parameter followed by named parameter.</source>
         <translation>シグナルは名前付きの引数の後に無名の引数を使用しています。</translation>
     </message>
@@ -865,20 +873,12 @@
         <source>Signal parameter &quot;%1&quot; hides global variable.</source>
         <translation>シグナルの引数 &quot;%1&quot; がグローバル変数を隠しています。</translation>
     </message>
-    <message>
-        <source>Signal has an excessive number of parameters: %1</source>
-        <translation>シグナルには過剰な数のパラメータがあります: %1</translation>
-    </message>
 </context>
 <context>
     <name>QQmlTypeLoader</name>
     <message>
         <source>Cannot update qmldir content for &apos;%1&apos;</source>
         <translation>qmldir &quot;%1&quot; のコンテンツの更新ができませんでした</translation>
-    </message>
-    <message>
-        <source>Type %1 has no inline component type called %2</source>
-        <translation>タイプ %1 には %2 と呼ばれるインライン コンポーネント タイプがありません</translation>
     </message>
     <message>
         <source>No matching type found, pragma Singleton files cannot be used by QQmlComponent.</source>
@@ -889,16 +889,20 @@
         <translation>Singleton pragma がコンポジットではないシングルトンな型 %1 で使われています</translation>
     </message>
     <message>
-        <source>File is empty</source>
-        <translation>ファイルは空です</translation>
+        <source>File was compiled ahead of time with an incompatible version of Qt and the original file cannot be found. Please recompile</source>
+        <translation>ファイルは互換性のないバージョンのQtでコンパイルされたため、元のファイルが見つかりません。再コンパイルしてください</translation>
     </message>
     <message>
-        <source>Cached QML Unit has no objects</source>
-        <translation>キャッシュされたQMLユニットにはオブジェクトがありません</translation>
+        <source>No such file or directory</source>
+        <translation>そのようなファイル、又はディレクトリはありません</translation>
     </message>
     <message>
         <source>Script %1 unavailable</source>
         <translation>スクリプト %1 が利用できません</translation>
+    </message>
+    <message>
+        <source>Type %1 has no inline component type called %2</source>
+        <translation>タイプ %1 には %2 と呼ばれるインライン コンポーネント タイプがありません</translation>
     </message>
     <message>
         <source>Type %1 unavailable</source>
@@ -907,6 +911,14 @@
     <message>
         <source>qmldir defines type as singleton, but no pragma Singleton found in type %1.</source>
         <translation>qmldir はシングルトンな型として定義されていますが、Singleton pragma が型 %1 に見つかりません。</translation>
+    </message>
+    <message>
+        <source>File is empty</source>
+        <translation>ファイルは空です</translation>
+    </message>
+    <message>
+        <source>Cached QML Unit has no objects</source>
+        <translation>キャッシュされたQMLユニットにはオブジェクトがありません</translation>
     </message>
     <message>
         <source>module &quot;%1&quot; is not installed</source>
@@ -923,14 +935,6 @@
     <message>
         <source>%1 %2</source>
         <translation>%1 %2</translation>
-    </message>
-    <message>
-        <source>File was compiled ahead of time with an incompatible version of Qt and the original file cannot be found. Please recompile</source>
-        <translation>ファイルは互換性のないバージョンのQtでコンパイルされたため、元のファイルが見つかりません。再コンパイルしてください</translation>
-    </message>
-    <message>
-        <source>No such file or directory</source>
-        <translation>そのようなファイル、又はディレクトリはありません</translation>
     </message>
 </context>
 <context>
@@ -1038,7 +1042,7 @@
     <name>QQuickLayoutMirroringAttached</name>
     <message>
         <source>LayoutMirroring attached property only works with Items and Windows</source>
-        <translation>LayoutMirroring添付プロパティは、アイテムとウィンドウでのみ機能します</translation>
+        <translation>LayoutMirroring添付プロパティは、項目とウィンドウでのみ機能します</translation>
     </message>
 </context>
 <context>
@@ -1176,14 +1180,6 @@
 <context>
     <name>qmlRegisterType</name>
     <message>
-        <source>Invalid QML %1 name &quot;%2&quot;</source>
-        <translation>QML %1 の名前 &quot;%2&quot; が無効です</translation>
-    </message>
-    <message>
-        <source>Cannot install %1 &apos;%2&apos; into protected module &apos;%3&apos; version &apos;%4&apos;</source>
-        <translation>%1 &apos;%2&apos; を保護されたモジュール &apos;%3&apos; バージョン &apos;%4&apos; へインストールできません</translation>
-    </message>
-    <message>
         <source>Invalid QML %1 name &quot;%2&quot;; type names must begin with an uppercase letter</source>
         <translation>無効な QML %1 名 &quot;%2&quot;。型名は大文字で始まる必要があります</translation>
     </message>
@@ -1191,11 +1187,68 @@
         <source>Invalid QML %1 name &quot;%2&quot;; value type names should begin with a lowercase letter</source>
         <translation>無効な QML %1 名 &quot;%2&quot;。値の型名は小文字で始まる必要があります</translation>
     </message>
+    <message>
+        <source>Invalid QML %1 name &quot;%2&quot;</source>
+        <translation>QML %1 の名前 &quot;%2&quot; が無効です</translation>
+    </message>
+    <message>
+        <source>Cannot install %1 &apos;%2&apos; into protected module &apos;%3&apos; version &apos;%4&apos;</source>
+        <translation>%1 &apos;%2&apos; を保護されたモジュール &apos;%3&apos; バージョン &apos;%4&apos; へインストールできません</translation>
+    </message>
+</context>
+<context>
+    <name>CopyAction</name>
+    <message>
+        <source>Copy</source>
+        <translation>コピー</translation>
+    </message>
+</context>
+<context>
+    <name>CutAction</name>
+    <message>
+        <source>Cut</source>
+        <translation>切り取り</translation>
+    </message>
+</context>
+<context>
+    <name>DeleteAction</name>
+    <message>
+        <source>Delete</source>
+        <translation>削除</translation>
+    </message>
+</context>
+<context>
+    <name>PasteAction</name>
+    <message>
+        <source>Paste</source>
+        <translation>貼り付け</translation>
+    </message>
+</context>
+<context>
+    <name>RedoAction</name>
+    <message>
+        <source>Redo</source>
+        <translation>やり直し</translation>
+    </message>
+</context>
+<context>
+    <name>SelectAllAction</name>
+    <message>
+        <source>Select All</source>
+        <translation>すべて選択</translation>
+    </message>
+</context>
+<context>
+    <name>UndoAction</name>
+    <message>
+        <source>Undo</source>
+        <translation>取り消し</translation>
+    </message>
 </context>
 <context>
     <name>ColorDialog</name>
     <message>
-        <source>Eye dropper</source>
+        <source>Eyedropper</source>
         <translation>スポイト</translation>
     </message>
     <message>
@@ -1209,6 +1262,10 @@
     <message>
         <source>Color</source>
         <translation>色</translation>
+    </message>
+    <message>
+        <source>Eye dropper</source>
+        <translation>スポイト</translation>
     </message>
 </context>
 <context>
@@ -1251,19 +1308,16 @@ Do you want to replace it?</source>
         <translation>フィルター</translation>
     </message>
     <message>
+        <source>Up</source>
+        <translation>上へ</translation>
+    </message>
+    <message>
         <source>Add Favorite</source>
         <translation>お気に入りに追加</translation>
     </message>
     <message>
         <source>Remove</source>
         <translation>削除</translation>
-    </message>
-</context>
-<context>
-    <name>FolderBreadcrumbBar</name>
-    <message>
-        <source>Up</source>
-        <translation>上へ</translation>
     </message>
 </context>
 <context>
@@ -1450,8 +1504,8 @@ Do you want to replace it?</source>
         <translation>ID が重複しています</translation>
     </message>
     <message>
-        <source>Circular alias reference detected</source>
-        <translation>循環エイリアス参照が検出されました</translation>
+        <source>Cyclic alias</source>
+        <translation>循環エイリアス</translation>
     </message>
     <message>
         <source>Invalid alias reference. Unable to find id &quot;%1&quot;</source>
@@ -1460,6 +1514,10 @@ Do you want to replace it?</source>
     <message>
         <source>Invalid alias target location: %1</source>
         <translation>無効なエイリアス先のパス: %1</translation>
+    </message>
+    <message>
+        <source>Circular alias reference detected</source>
+        <translation>循環エイリアス参照が検出されました</translation>
     </message>
 </context>
 <context>
@@ -1545,10 +1603,6 @@ Do you want to replace it?</source>
         <translation>名前が &quot;%2&quot; のQML静的プラグインにはメタデータURIがありません</translation>
     </message>
     <message>
-        <source>File name case mismatch for &quot;%1&quot;</source>
-        <translation>ファイル名の大文字小文字が &quot;%1&quot; に合っていません</translation>
-    </message>
-    <message>
         <source>could not resolve all plugins for module &quot;%1&quot;</source>
         <translation>モジュール &quot;%1&quot; 用プラグインのすべてシンボルを解決することが出来ませんでした</translation>
     </message>
@@ -1568,9 +1622,41 @@ Do you want to replace it?</source>
         <translation>モジュール「%1」は、次の理由によりインポートできません:
 %2</translation>
     </message>
+    <message>
+        <source>File name case mismatch for &quot;%1&quot;</source>
+        <translation>ファイル名の大文字小文字が &quot;%1&quot; に合っていません</translation>
+    </message>
 </context>
 <context>
     <name>QQmlPropertyCacheCreatorBase</name>
+    <message>
+        <source>Nothing to override. Remove &quot;override&quot; keyword</source>
+        <translation>上書きするものがありません。&quot;override&quot; キーワードを削除してください</translation>
+    </message>
+    <message>
+        <source>Cannot override FINAL property</source>
+        <translation>FINAL プロパティは上書きできません</translation>
+    </message>
+    <message>
+        <source>Cannot override non virtual property. Add &quot;virtual&quot; to the property of the base object</source>
+        <translation>非仮想プロパティをオーバーライドできません。基底オブジェクトのプロパティに &quot;virtual&quot; を追加してください</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Invalid signal parameter type: %1</source>
+        <translation>無効な型のシグナルの引数: %1</translation>
+    </message>
+    <message>
+        <source>Duplicate signal name: invalid override of property change signal or superclass signal</source>
+        <translation>シグナル名が重複しています: プロパティの変更通知シグナルや基底クラスのシグナルのオーバーライドは無効です</translation>
+    </message>
+    <message>
+        <source>Duplicate method name: invalid override of property change signal or superclass signal</source>
+        <translation>メソッド名が重複しています: プロパティの変更通知シグナルや基底クラスのシグナルのオーバーライドは無効です</translation>
+    </message>
     <message>
         <source>Type cannot be used for &apos;on&apos; assignment</source>
         <translation>この型は &apos;on&apos; 代入には使用できません</translation>
@@ -1596,32 +1682,16 @@ Do you want to replace it?</source>
         <translation>アタッチされたオブジェクトが存在しません</translation>
     </message>
     <message>
-        <source>Cannot override FINAL property</source>
-        <translation>FINAL プロパティは上書きできません</translation>
-    </message>
-    <message>
-        <source>Invalid signal parameter type: %1</source>
-        <translation>無効な型のシグナルの引数: %1</translation>
-    </message>
-    <message>
-        <source>Duplicate signal name: invalid override of property change signal or superclass signal</source>
-        <translation>シグナル名が重複しています: プロパティの変更通知シグナルや基底クラスのシグナルのオーバーライドは無効です</translation>
-    </message>
-    <message>
-        <source>Duplicate method name: invalid override of property change signal or superclass signal</source>
-        <translation>メソッド名が重複しています: プロパティの変更通知シグナルや基底クラスのシグナルのオーバーライドは無効です</translation>
-    </message>
-    <message>
-        <source>Invalid property type</source>
-        <translation>無効なプロパティの型です</translation>
-    </message>
-    <message>
         <source>Cyclic alias</source>
         <translation>循環エイリアス</translation>
     </message>
     <message>
         <source>Invalid alias target</source>
         <translation>エイリアスターゲットが無効です</translation>
+    </message>
+    <message>
+        <source>Invalid property type</source>
+        <translation>無効なプロパティの型です</translation>
     </message>
 </context>
 <context>
@@ -1724,8 +1794,8 @@ Do you want to replace it?</source>
         <translation>不明なアクセス セマンティクス &quot;%1&quot;。</translation>
     </message>
     <message>
-        <source>Expected only lineNumber, name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames, and immediateNames in script bindings, not &quot;%1&quot;.</source>
-        <translation>スクリプト バインディングでは、lineNumber、name、prototype、defaultProperty、attachedType、valueType、exports、interfaces、isSingleton、isCreatable、isStructured、isComposite、hasCustomParser、enforcesScopedEnums、aliases、exportMetaObjectRevisions、deferredNames、immediateNames のみが期待され、&quot;%1&quot; は期待されません。</translation>
+        <source>Expected only lineNumber, name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames, metaObjectHash, and immediateNames in script bindings, not &quot;%1&quot;.</source>
+        <translation>スクリプトバインディングで &quot;%1&quot; は使用できません。使用可能なのは lineNumber、name、prototype、defaultProperty、attachedType、valueType、exports、interfaces、isSingleton、isCreatable、isStructured、isComposite、hasCustomParser、enforcesScopedEnums、aliases、exportMetaObjectRevisions、deferredNames、metaObjectHash、immediateNames のみです。</translation>
     </message>
     <message>
         <source>Expected only script bindings and object definitions.</source>
@@ -1752,8 +1822,8 @@ Do you want to replace it?</source>
         <translation>スクリプトのバインディングが予想されます。</translation>
     </message>
     <message>
-        <source>Expected only type, name, lineNumber, revision, isPointer, isTypeConstant, isReadonly, isRequired, isFinal, isList, bindable, read, write, isPropertyConstant, reset, notify, index, and privateClass and script bindings.</source>
-        <translation>期待されるのは、type、name、lineNumber、revision、isPointer、isTypeConstant、isReadonly、isRequired、isFinal、isList、bindable、read、write、isPropertyConstant、reset、notify、index、privateClass およびスクリプト バインディングのみです。</translation>
+        <source>Expected only type, name, lineNumber, revision, isPointer, isTypeConstant, isReadonly, isRequired, isFinal, isList, bindable, read, write, isPropertyConstant, reset, notify, index, privateClass and script bindings.</source>
+        <translation>使用可能なのは type、name、lineNumber、revision、isPointer、isTypeConstant、isReadonly、isRequired、isFinal、isList、bindable、read、write、isPropertyConstant、reset、notify、index、privateClass、スクリプトバインディングのみです。</translation>
     </message>
     <message>
         <source>Property object is missing a name script binding.</source>
@@ -1836,6 +1906,29 @@ Revision %1 corresponds to version %2.%3; it should be %4.%5.</source>
     <message>
         <source>Expected either array or object literal as enum definition.</source>
         <translation>列挙型の定義として配列またはオブジェクトリテラルのいずれかが必要です。</translation>
+    </message>
+    <message>
+        <source>Expected only lineNumber, name, prototype, defaultProperty, attachedType, valueType, exports, interfaces, isSingleton, isCreatable, isStructured, isComposite, hasCustomParser, enforcesScopedEnums, aliases, exportMetaObjectRevisions, deferredNames, and immediateNames in script bindings, not &quot;%1&quot;.</source>
+        <translation>スクリプト バインディングでは、lineNumber、name、prototype、defaultProperty、attachedType、valueType、exports、interfaces、isSingleton、isCreatable、isStructured、isComposite、hasCustomParser、enforcesScopedEnums、aliases、exportMetaObjectRevisions、deferredNames、immediateNames のみが期待され、&quot;%1&quot; は期待されません。</translation>
+    </message>
+    <message>
+        <source>Expected only type, name, lineNumber, revision, isPointer, isTypeConstant, isReadonly, isRequired, isFinal, isList, bindable, read, write, isPropertyConstant, reset, notify, index, and privateClass and script bindings.</source>
+        <translation>期待されるのは、type、name、lineNumber、revision、isPointer、isTypeConstant、isReadonly、isRequired、isFinal、isList、bindable、read、write、isPropertyConstant、reset、notify、index、privateClass およびスクリプト バインディングのみです。</translation>
+    </message>
+</context>
+<context>
+    <name>QQmlProfilerQtdWriter</name>
+    <message>
+        <source>Could not open %1 for writing</source>
+        <translation>%1 を書き込みのために開けませんでした</translation>
+    </message>
+    <message>
+        <source>Could not open stdout for writing</source>
+        <translation>標準出力を書き込み用に開けませんでした</translation>
+    </message>
+    <message>
+        <source>No data to save</source>
+        <translation>保存するデータがありません</translation>
     </message>
 </context>
 <context>
@@ -2296,6 +2389,13 @@ Revision %1 corresponds to version %2.%3; it should be %4.%5.</source>
     <message>
         <source>Can only save to local files</source>
         <translation>ローカルファイルにのみ保存できます</translation>
+    </message>
+</context>
+<context>
+    <name>FolderBreadcrumbBar</name>
+    <message>
+        <source>Up</source>
+        <translation>上へ</translation>
     </message>
 </context>
 </TS>
