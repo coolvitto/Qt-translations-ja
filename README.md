@@ -9,19 +9,22 @@ This repository contains Japanese translation (\*_ja.ts) files for Qt.
 - 
 - Qt Creator 18.0.1
 
-https://l10n-files.qt.io/l10n-files/</br>
-https://code.qt.io/cgit/qt/qttranslations.git/
+　　https://l10n-files.qt.io/l10n-files/</br>
+　　https://code.qt.io/cgit/qt/qttranslations.git/</br></br>
+  
 
 ## 🔹ツール (Tools)
-- Qt Linguist
-- Qt Creator
-
-https://github.com/thurask/Qt-Linguist/</br>
-https://www.qt.io/ja-jp/development/tools/qt-creator-ide
+- Qt Linguist</br>
+  https://github.com/thurask/Qt-Linguist/</br>
+  https://github.com/lelegard/qtlinguist-installers (プラグイン同梱版)</br></br>
+  
+- Qt Creator</br>
+  https://www.qt.io/ja-jp/development/tools/qt-creator-ide</br></br>
+  
 
 ## 🔹備考 (Notes)
 - l10nをベースに個人で翻訳したものです。 (Personal translation,base on l10n)
-- 公式で公開されているものでありません。(Not officially provided by The Qt Company)
+- 公式で公開されているものでありません。(Not officially provided by The Qt Company)</br></br>
 ---
 ### 🔹ファイルリスト (File list)
 **Qt 5.15**
