@@ -7,7 +7,7 @@ This repository contains Japanese translation (\*_ja.ts) files for Qt.
 - Qt 5.15.x
 - Qt 6.x
 - 
-- Qt Creator 18.0.1
+- Qt Creator
 
 　　https://l10n-files.qt.io/l10n-files/</br>
 　　https://code.qt.io/cgit/qt/</br></br>
