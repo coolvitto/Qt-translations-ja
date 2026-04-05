@@ -55,12 +55,16 @@ This repository contains Japanese translation (\*_ja.ts) files for Qt.
 **Qt Creator 18.0.1**
  - qtcreator_ja.ts
 
-**Qt Creator 19.0.0 beta2**
+**Qt Creator 19.0.0**
  - qtcreator_ja.ts
 
 
 ---
 ### 🔸更新履歴 (Update history)
+
+**2026-04-06**
+ - Qt-Creator_19.0.0 追加
+ - Qt-Creator_19.0.0-beta2 削除
 
 **2026-02-17**
  - Qt-Creator_19.0.0-beta2 追加 (Add Qt-Creator_19.0.0-beta2)
