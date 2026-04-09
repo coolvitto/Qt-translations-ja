@@ -36,6 +36,10 @@
         <translation>サポートされていないオープンモードです</translation>
     </message>
     <message>
+        <source>The device supports only the ignoring policy</source>
+        <translation type="vanished">このデバイスではデータエラーのポリシーは無視のみサポートしています</translation>
+    </message>
+    <message>
         <source>Permission error while creating lock file</source>
         <translation>ロックファイルを生成可能な権限がありません</translation>
     </message>

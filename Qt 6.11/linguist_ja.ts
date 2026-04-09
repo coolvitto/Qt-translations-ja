@@ -1864,7 +1864,7 @@ Line: %2</source>
         <translation>既定値へリセット</translation>
     </message>
     <message>
-        <source>Advanced Settings +</source>
+        <source>Advanced Settings</source>
         <translation>高度な設定 +</translation>
     </message>
     <message>

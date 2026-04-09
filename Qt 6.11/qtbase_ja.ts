@@ -422,15 +422,15 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>Scheduled printing:</source>
-        <translation>印刷スケジュール:</translation>
+        <translation type="vanished">印刷スケジュール:</translation>
     </message>
     <message>
         <source>Billing information:</source>
-        <translation>課金情報:</translation>
+        <translation type="vanished">課金情報:</translation>
     </message>
     <message>
         <source>Job priority:</source>
-        <translation>ジョブ優先度:</translation>
+        <translation type="vanished">ジョブ優先度:</translation>
     </message>
     <message>
         <source>Banner Pages</source>
@@ -439,12 +439,12 @@ Press ESC to cancel</source>
     <message>
         <source>End:</source>
         <comment>Banner page at end</comment>
-        <translation>終了バナー:</translation>
+        <translation type="vanished">終了バナー:</translation>
     </message>
     <message>
         <source>Start:</source>
         <comment>Banner page at start</comment>
-        <translation>開始バナー:</translation>
+        <translation type="vanished">開始バナー:</translation>
     </message>
     <message>
         <source>Print Immediately</source>
@@ -807,7 +807,7 @@ Press ESC to cancel</source>
     <name>QFileDialog</name>
     <message>
         <source>Look in:</source>
-        <translation>アドレス:</translation>
+        <translation type="vanished">アドレス:</translation>
     </message>
     <message>
         <source>Back</source>
@@ -883,7 +883,7 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>Files of type:</source>
-        <translation>ファイルの種類:</translation>
+        <translation type="vanished">ファイルの種類:</translation>
     </message>
     <message>
         <source>Find Directory</source>
@@ -2689,11 +2689,11 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Page order:</source>
-        <translation>ページの順序:</translation>
+        <translation type="vanished">ページの順序:</translation>
     </message>
     <message>
         <source>Pages per sheet:</source>
-        <translation>シートごとのページ数:</translation>
+        <translation type="vanished">シートごとのページ数:</translation>
     </message>
     <message>
         <source>Millimeters (mm)</source>
@@ -3635,7 +3635,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Page Set:</source>
-        <translation>ページセット:</translation>
+        <translation type="vanished">ページセット:</translation>
     </message>
     <message>
         <source>Output Settings</source>
@@ -8192,7 +8192,7 @@ application/warc+gz</extracomment>
     <message>
         <source>Mach-O</source>
         <extracomment>application/x-mach-o</extracomment>
-        <translation></translation>
+        <translation>Mach-O</translation>
     </message>
     <message>
         <source>Mach-O relocatable object file</source>
@@ -8898,7 +8898,7 @@ application/x-rar-compressed;version=5</extracomment>
     <message>
         <source>Portable Graymap Graphic</source>
         <extracomment>image/x-portable-graymap</extracomment>
-        <translation></translation>
+        <translation>Portable Graymap Graphic</translation>
     </message>
     <message>
         <source>UNIX Portable Bitmap Graphic</source>
@@ -8943,7 +8943,7 @@ application/x-rar-compressed;version=5</extracomment>
     <message>
         <source>Kodak raw image</source>
         <extracomment>image/x-raw-kodak</extracomment>
-        <translation></translation>
+        <translation>Kodak raw image</translation>
     </message>
     <message>
         <source>Minolta raw image</source>
@@ -9048,7 +9048,7 @@ application/x-rar-compressed;version=5</extracomment>
     <message>
         <source>3d imaging data exchange</source>
         <extracomment>model/e57</extracomment>
-        <translation></translation>
+        <translation>3d imaging data exchange</translation>
     </message>
     <message>
         <source>Initial Graphics Exchange Specification Format</source>
@@ -9082,7 +9082,7 @@ application/onix-message-short+xml</extracomment>
     <message>
         <source>Ada source code</source>
         <extracomment>text/x-ada</extracomment>
-        <translation></translation>
+        <translation>Ada source code</translation>
     </message>
     <message>
         <source>AppleScript source code</source>
@@ -9137,7 +9137,7 @@ application/onix-message-short+xml</extracomment>
     <message>
         <source>American Newspaper Publishers Association Wire Feeds</source>
         <extracomment>text/vnd.iptc.anpa</extracomment>
-        <translation></translation>
+        <translation>American Newspaper Publishers Association Wire Feeds</translation>
     </message>
     <message>
         <source>WML Script</source>
@@ -9202,7 +9202,7 @@ application/onix-message-short+xml</extracomment>
     <message>
         <source>COBOL source code</source>
         <extracomment>text/x-cobol</extracomment>
-        <translation></translation>
+        <translation>COBOL source code</translation>
     </message>
     <message>
         <source>ColdFusion source code</source>
@@ -9377,7 +9377,7 @@ application/onix-message-short+xml</extracomment>
     <message>
         <source>Scala source code</source>
         <extracomment>text/x-scala</extracomment>
-        <translation></translation>
+        <translation>Scala source code</translation>
     </message>
     <message>
         <source>Scheme source code</source>
@@ -9402,7 +9402,7 @@ application/onix-message-short+xml</extracomment>
     <message>
         <source>Tcl script</source>
         <extracomment>text/x-tcl</extracomment>
-        <translation></translation>
+        <translation>Tcl script</translation>
     </message>
     <message>
         <source>Text-based (non-binary) Message</source>
@@ -9417,12 +9417,12 @@ application/onix-message-short+xml</extracomment>
     <message>
         <source>VB.NET source code</source>
         <extracomment>text/x-vbdotnet</extracomment>
-        <translation></translation>
+        <translation>VB.NET source code</translation>
     </message>
     <message>
         <source>VBScript source code</source>
         <extracomment>text/x-vbscript</extracomment>
-        <translation></translation>
+        <translation>VBScript source code</translation>
     </message>
     <message>
         <source>Verilog source code</source>
@@ -9432,7 +9432,7 @@ application/onix-message-short+xml</extracomment>
     <message>
         <source>VHDL source code</source>
         <extracomment>text/x-vhdl</extracomment>
-        <translation></translation>
+        <translation>VHDL source code</translation>
     </message>
     <message>
         <source>Markdown source code</source>
@@ -9452,7 +9452,7 @@ application/onix-message-short+xml</extracomment>
     <message>
         <source>JPEG 2000 Part 3 (Motion JPEG, MJ2)</source>
         <extracomment>video/mj2</extracomment>
-        <translation></translation>
+        <translation>JPEG 2000 Part 3 (Motion JPEG, MJ2)</translation>
     </message>
     <message>
         <source>MPEG Movie Clip</source>
@@ -9462,7 +9462,7 @@ application/onix-message-short+xml</extracomment>
     <message>
         <source>Ogg Vorbis Video</source>
         <extracomment>video/ogg</extracomment>
-        <translation></translation>
+        <translation>Ogg Vorbis Video</translation>
     </message>
     <message>
         <source>Ogg Daala Video</source>
@@ -9512,7 +9512,7 @@ application/onix-message-short+xml</extracomment>
     <message>
         <source>Audio Video Interleave File</source>
         <extracomment>video/x-msvideo</extracomment>
-        <translation></translation>
+        <translation>Audio Video Interleave File</translation>
     </message>
     <message>
         <source>Matroska Media Container</source>
@@ -9566,7 +9566,7 @@ application/onix-message-short+xml</extracomment>
     </message>
 </context>
 <context>
-    <name></name>
+    <name>QFactoryLoader</name>
     <message>
         <source>Cannot open %1 for input</source>
         <translation>入力用に %1 を開けません</translation>
