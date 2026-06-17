@@ -8806,7 +8806,7 @@ Set a valid executable first.</source>
     </message>
     <message>
         <source>Clang Tools</source>
-        <translation>Clangツール</translation>
+        <translation>Clang ツール</translation>
     </message>
     <message>
         <source>Issues that Clang-Tidy and Clazy found when analyzing code.</source>
@@ -14573,7 +14573,7 @@ These prefixes are used in addition to current file name on Switch Header/Source
     </message>
     <message>
         <source>Clangd executable:</source>
-        <translation>Clangd 実行ファイル:</translation>
+        <translation>Clangd 実行ファイル :</translation>
     </message>
     <message>
         <source>Internal error: No code style pool</source>
@@ -18638,7 +18638,7 @@ markers in the source code editor.</source>
     </message>
     <message>
         <source>Use Intel style disassembly</source>
-        <translation>Intelスタイルの逆アセンブルを使用</translation>
+        <translation>Intel スタイルの逆アセンブルを使用</translation>
     </message>
     <message>
         <source>Use pseudo message tracepoints</source>
@@ -33602,7 +33602,7 @@ Display name of the deploy build step list. Used as part of the labels in the pr
     </message>
     <message>
         <source>Enable connection sharing:</source>
-        <translation>接続共有を有効化:</translation>
+        <translation>接続共有を有効化 :</translation>
     </message>
     <message>
         <source>Connection sharing timeout:</source>
@@ -42980,7 +42980,7 @@ the program.</source>
     </message>
     <message>
         <source>QNX sdpenv.sh:</source>
-        <translation>QNX sdpenv.sh:</translation>
+        <translation>QNX sdpenv.sh :</translation>
     </message>
     <message>
         <source>QNX Software Development Platform environment file.</source>
