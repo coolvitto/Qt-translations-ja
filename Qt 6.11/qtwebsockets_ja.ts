@@ -87,8 +87,20 @@
         <translation>プロトコルのアップグレード中に無効なパラメータが検出されました: %1</translation>
     </message>
     <message>
+        <source>Invalid statusline in response: %1.</source>
+        <translation type="vanished">応答に無効なステータス行があります: %1.</translation>
+    </message>
+    <message>
+        <source>QWebSocketPrivate::processHandshake: Connection closed while reading header.</source>
+        <translation type="vanished">QWebSocketPrivate::processHandshake: ヘッダ読込中に切断されました。</translation>
+    </message>
+    <message>
         <source>Accept-Key received from server %1 does not match the client key %2.</source>
         <translation>サーバから受け取った Accept ヘッダの値 %1 がクライアントの Key の値 %2 と合致しません。</translation>
+    </message>
+    <message>
+        <source>QWebSocketPrivate::processHandshake: Invalid statusline in response: %1.</source>
+        <translation type="vanished">QWebSocketPrivate::processHandshake: 応答に無効なステータス行があります: %1.</translation>
     </message>
     <message>
         <source>Handshake: Server requests a version that we don&apos;t support: %1.</source>
@@ -121,6 +133,10 @@
     <message>
         <source>The extensions attribute contains newlines. Possible attack detected.</source>
         <translation>拡張属性に空行が含まれています。攻撃された可能性があります。</translation>
+    </message>
+    <message>
+        <source>The protocols attribute contains newlines. Possible attack detected.</source>
+        <translation type="vanished">プロトコル属性に空行が含まれています。攻撃された可能性があります。</translation>
     </message>
     <message>
         <source>Connection refused</source>
@@ -164,6 +180,10 @@
 </context>
 <context>
     <name>QWebSocketFrame</name>
+    <message>
+        <source>Timeout when reading data from socket.</source>
+        <translation type="vanished">ソケットからデータの読込中にタイムアウトしました。</translation>
+    </message>
     <message>
         <source>Waiting for more data from socket.</source>
         <translation>ソケットからのさらなるデータを待機しています。</translation>
@@ -265,6 +285,11 @@
     <message>
         <source>Invalid response received.</source>
         <translation>無効な応答を受け取りました。</translation>
+    </message>
+    <message>
+        <location filename="../../qtwebsockets/src/websockets/qwebsocketserver_p.cpp" line="+537"/>
+        <source>Invalid handshake request.</source>
+        <translation>無効なハンドシェイク要求です。</translation>
     </message>
 </context>
 </TS>

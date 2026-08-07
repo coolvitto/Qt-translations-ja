@@ -18,12 +18,26 @@
         <source>Unable to launch external application.</source>
         <translation>外部アプリケーションを起動できません。</translation>
     </message>
+    <message>
+        <source>Unable to launch external application.
+</source>
+        <translation type="vanished">外部アプリケーションを起動できません。
+</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation type="vanished">OK</translation>
+    </message>
 </context>
 <context>
     <name>Assistant</name>
     <message>
         <source>Error registering documentation file &apos;%1&apos;: %2</source>
         <translation>ドキュメントファイル &apos;%1&apos; の登録中にエラーが発生しました: %2</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation type="vanished">エラー: %1</translation>
     </message>
     <message>
         <source>Could not register documentation file
@@ -311,6 +325,60 @@ Reason:
                            file.
 -setCurrentFilter filter   Set the filter as the active filter.
 -remove-search-index       Removes the full text search index.
+-rebuild-search-index      Re-builds the full text search index (potentially slow).
+-quiet                     Does not display any error or
+                           status message.
+-help                      Displays this help.
+</source>
+        <translation type="vanished">使い方: assistant [オプション]
+
+-collectionFile file       デフォルトのコレクションファイルの代わりに使用する
+                           コレクションファイルを指定します。
+-showUrl url               表示するURLを指定します。
+-enableRemoteControl       Assistant をリモートから制御できるようにします。
+-show widget               表示するウィジェット(&quot;contents&quot;、&quot;index&quot;、
+                           &quot;bookmarks&quot;、&quot;search&quot;)を指定します。
+-activate widget           アクティブにするウィジェット(&quot;contents&quot;、
+                           &quot;index&quot;、&quot;bookmarks&quot;、&quot;search&quot;)を指定します。
+-hide widget               表示しないウィジェット(&quot;contents&quot;、&quot;index&quot;、
+                           &quot;bookmarks&quot;、&quot;search&quot;)を指定します。
+-register helpFile         コレクションファイルに登録する
+                           ヘルプファイル (.qch) を指定します。
+-unregister helpFile       コレクションファイルから登録を解除する
+                           ヘルプファイル (.qch) を指定します。
+-setCurrentFilter filter   フィルタをアクティブなフィルタとして設定します。
+-remove-search-index       全文検索インデックスを削除します。
+-rebuild-search-index      全文検索インデックスをリビルドします。(時間を要する場合があります)
+-quiet                     エラーやステータスメッセージを表示しません。
+-help                      このヘルプを表示します。
+</translation>
+    </message>
+    <message>
+        <source>Usage: assistant [Options]
+
+-collectionFile file       Uses the specified collection
+                           file instead of the default one
+-showUrl url               Shows the document with the
+                           url.
+-enableRemoteControl       Enables Assistant to be
+                           remotely controlled.
+-show widget               Shows the specified dockwidget
+                           which can be &quot;contents&quot;, &quot;index&quot;,
+                           &quot;bookmarks&quot; or &quot;search&quot;.
+-activate widget           Activates the specified dockwidget
+                           which can be &quot;contents&quot;, &quot;index&quot;,
+                           &quot;bookmarks&quot; or &quot;search&quot;.
+-hide widget               Hides the specified dockwidget
+                           which can be &quot;contents&quot;, &quot;index&quot;
+                           &quot;bookmarks&quot; or &quot;search&quot;.
+-register helpFile         Registers the specified help file
+                           (.qch) in the given collection
+                           file.
+-unregister helpFile       Unregisters the specified help file
+                           (.qch) from the give collection
+                           file.
+-setCurrentFilter filter   Set the filter as the active filter.
+-remove-search-index       Removes the full text search index.
 -rebuild-search-index      Obsolete. Use -remove-search-index instead.
                            Removes the full text search index.
                            It will be rebuilt on next Assistant run.
@@ -402,6 +470,17 @@ Reason:
     </message>
 </context>
 <context>
+    <name>FilterNameDialogClass</name>
+    <message>
+        <source>Add Filter Name</source>
+        <translation type="vanished">フィルタ名を追加</translation>
+    </message>
+    <message>
+        <source>Filter Name:</source>
+        <translation type="vanished">フィルタ名:</translation>
+    </message>
+</context>
+<context>
     <name>FindWidget</name>
     <message>
         <source>Previous</source>
@@ -487,6 +566,13 @@ Reason:
     </message>
 </context>
 <context>
+    <name>HelpEngineWrapper</name>
+    <message>
+        <source>Unfiltered</source>
+        <translation type="vanished">フィルタなし</translation>
+    </message>
+</context>
+<context>
     <name>HelpViewer</name>
     <message>
         <source>&lt;title&gt;about:blank&lt;/title&gt;</source>
@@ -497,8 +583,32 @@ Reason:
         <translation>&lt;title&gt;404 エラー…&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;ページが見つかりませんでした。&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</translation>
     </message>
     <message>
+        <source>Open Link</source>
+        <translation type="vanished">リンクを開く</translation>
+    </message>
+    <message>
+        <source>Open Link in New Tab	Ctrl+LMB</source>
+        <translation type="vanished">リンクを新しいタブで開く	Ctrl+LMB</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Link Location</source>
+        <translation type="vanished">リンクのURLをコピー(&amp;L)</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation type="vanished">コピー</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation type="vanished">リロード</translation>
+    </message>
+    <message>
         <source>Error 404...</source>
         <translation>404 エラー…</translation>
+    </message>
+    <message>
+        <source>The page could not be found!</source>
+        <translation type="vanished">ページが見つかりませんでした!</translation>
     </message>
     <message>
         <source>The page could not be found</source>
@@ -511,6 +621,10 @@ Reason:
     <message>
         <source>Error loading: %1</source>
         <translation>ロード中にエラーが発生しました: %1</translation>
+    </message>
+    <message>
+        <source>Open Link in New Page</source>
+        <translation type="vanished">リンクを新しいページで開く</translation>
     </message>
 </context>
 <context>
@@ -731,6 +845,10 @@ Reason:
         <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;バージョン %2&lt;/p&gt;&lt;p&gt;ブラウザ: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) The Qt Company Ltd.&lt;/p&gt;</translation>
     </message>
     <message>
+        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</source>
+        <translation type="vanished">&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;バージョン %2&lt;/p&gt;&lt;p&gt;ブラウザ: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>About %1</source>
         <translation>%1 について</translation>
     </message>
@@ -760,6 +878,38 @@ Reason:
 </context>
 <context>
     <name>PreferencesDialog</name>
+    <message>
+        <source>Add Documentation</source>
+        <translation type="vanished">ドキュメントの追加</translation>
+    </message>
+    <message>
+        <source>Qt Compressed Help Files (*.qch)</source>
+        <translation type="vanished">圧縮済み Qt ヘルプファイル (*.qch)</translation>
+    </message>
+    <message>
+        <source>The namespace %1 is already registered!</source>
+        <translation type="vanished">ネームスペース %1 は既に登録済みです!</translation>
+    </message>
+    <message>
+        <source>The specified file is not a valid Qt Help File!</source>
+        <translation type="vanished">指定されたファイルは有効な Qt ヘルプ ファイルではありません!</translation>
+    </message>
+    <message>
+        <source>Remove Documentation</source>
+        <translation type="vanished">ドキュメントの除去</translation>
+    </message>
+    <message>
+        <source>Some documents currently opened in Assistant reference the documentation you are attempting to remove. Removing the documentation will close those documents.</source>
+        <translation type="vanished">除去しようとしているいくつかのドキュメントは Assistant 上で参照されています。除去すると、これらのドキュメントは閉じられます。</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="vanished">キャンセル</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation type="vanished">OK</translation>
+    </message>
     <message>
         <source>Use custom settings</source>
         <translation>独自設定を使用する</translation>
@@ -792,8 +942,36 @@ Reason:
         <translation>フィルタ</translation>
     </message>
     <message>
+        <source>Filter:</source>
+        <translation type="vanished">フィルタ:</translation>
+    </message>
+    <message>
+        <source>Attributes:</source>
+        <translation type="vanished">属性:</translation>
+    </message>
+    <message>
+        <source>1</source>
+        <translation type="vanished">1</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation type="vanished">追加</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation type="vanished">削除</translation>
+    </message>
+    <message>
         <source>Documentation</source>
         <translation>ドキュメント</translation>
+    </message>
+    <message>
+        <source>Registered Documentation:</source>
+        <translation type="vanished">登録済みドキュメント:</translation>
+    </message>
+    <message>
+        <source>Add...</source>
+        <translation type="vanished">追加...</translation>
     </message>
     <message>
         <source>Options</source>

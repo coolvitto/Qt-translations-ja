@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ja_JP">
+<TS version="2.1" language="ja">
 <context>
     <name>AbstractFindWidget</name>
     <message>
@@ -625,6 +625,10 @@
 <context>
     <name>Designer</name>
     <message>
+        <source>Unable to launch %1.</source>
+        <translation type="vanished">%1 を起動できませんでした。</translation>
+    </message>
+    <message>
         <source>%1 does not exist.</source>
         <translation>%1 は存在しません。</translation>
     </message>
@@ -1194,6 +1198,14 @@
         <source>The temporary form file %1 could not be written: %2</source>
         <translation>一時フォームファイル %1 に書き込めませんでした: %2</translation>
     </message>
+    <message>
+        <source>A temporary form file could not be created in %1.</source>
+        <translation type="vanished">一時フォームファイルを %1に作成できませんでした。</translation>
+    </message>
+    <message>
+        <source>The temporary form file %1 could not be written.</source>
+        <translation type="vanished">一時フォームファイル %1 に書き込めませんでした。</translation>
+    </message>
 </context>
 <context>
     <name>ObjectInspectorModel</name>
@@ -1418,6 +1430,11 @@ UI ファイルの記述が矛盾しています。</translation>
         <translation>フォーム %1 を保存しました。</translation>
     </message>
     <message>
+        <source>%1 already exists.
+Do you want to replace it?</source>
+        <translation type="vanished">%1 は既に存在します。上書きしますか?</translation>
+    </message>
+    <message>
         <source>Edit Widgets</source>
         <translation>ウィジェットを編集</translation>
     </message>
@@ -1460,6 +1477,10 @@ UI ファイルの記述が矛盾しています。</translation>
     <message>
         <source>&amp;Quit</source>
         <translation>終了(&amp;Q)</translation>
+    </message>
+    <message>
+        <source>View &amp;Code...</source>
+        <translation type="vanished">コードを表示(&amp;C)...</translation>
     </message>
     <message>
         <source>&amp;Minimize</source>
@@ -1614,6 +1635,14 @@ Reason: %2</source>
         <translation>バックアップファイル %1 を書き込めませんでした: %2</translation>
     </message>
     <message>
+        <source>It was not possible to write the entire file %1 to disk.
+Reason:%2
+Would you like to retry?</source>
+        <translation type="vanished">ファイル %1 の全体をディスクに書き込めませんでした。
+原因: %2
+リトライしますか?</translation>
+    </message>
+    <message>
         <source>Assistant</source>
         <translation>Assistant</translation>
     </message>
@@ -1622,8 +1651,16 @@ Reason: %2</source>
         <translation>プレビューを閉じる(&amp;C)</translation>
     </message>
     <message>
+        <source>The backup file %1 could not be written.</source>
+        <translation type="vanished">バックアップファイル %1 に書き込めませんでした。</translation>
+    </message>
+    <message>
         <source>The backup directory %1 could not be created.</source>
         <translation>バックアップディレクトリ %1 を作成できませんでした。</translation>
+    </message>
+    <message>
+        <source>The temporary backup directory %1 could not be created.</source>
+        <translation type="vanished">バックアップ用の一時ディレクトリ %1 を作成できませんでした。</translation>
     </message>
     <message>
         <source>Preview failed</source>
@@ -2270,6 +2307,10 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Bold</source>
+        <translation type="vanished">ボールド</translation>
+    </message>
+    <message>
+        <source>Bold</source>
         <comment>Bold toggle</comment>
         <translation>太字</translation>
     </message>
@@ -2634,6 +2675,10 @@ Container pages should only be added by specifying them in XML returned by the d
     <message>
         <source>Territory</source>
         <translation>地域</translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation type="vanished">国</translation>
     </message>
 </context>
 <context>
@@ -3320,6 +3365,10 @@ Do you want overwrite the template?</source>
         <source>%1&lt;br/&gt;Copyright (C) The Qt Company Ltd. and other contributors.</source>
         <translation>%1&lt;br/&gt;Copyright (C) The Qt Company Ltd. and other contributors.</translation>
     </message>
+    <message>
+        <source>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</source>
+        <translation type="vanished">%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
+    </message>
 </context>
 <context>
     <name>WidgetDataBase</name>
@@ -3330,6 +3379,13 @@ Do you want overwrite the template?</source>
     <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
         <translation>ファイルに含まれるカスタムウィジェット &apos;%1&apos; の基底クラス(%2)が現在のウィジェットデータベースの基底クラス(%3)と異なります。ウィジェットデータベースは変更していません。</translation>
+    </message>
+</context>
+<context>
+    <name>qdesigner_internal</name>
+    <message>
+        <source>%1 Widget</source>
+        <translation type="vanished">%1 ウィジェット</translation>
     </message>
 </context>
 <context>
@@ -3528,6 +3584,10 @@ Do you want overwrite the template?</source>
         <translation>すべてコピー</translation>
     </message>
     <message>
+        <source>&amp;Find in Text...</source>
+        <translation type="vanished">テキストを検索(&amp;F)...</translation>
+    </message>
+    <message>
         <source>A temporary form file could not be created in %1.</source>
         <translation>一時フォームファイルを %1に作成できませんでした。</translation>
     </message>
@@ -3536,8 +3596,16 @@ Do you want overwrite the template?</source>
         <translation>一時フォームファイル %1 に書き込めませんでした。</translation>
     </message>
     <message>
+        <source>%1 - [Code]</source>
+        <translation type="vanished">%1 - [コード]</translation>
+    </message>
+    <message>
         <source>Save Code</source>
         <translation>コードを保存</translation>
+    </message>
+    <message>
+        <source>Header Files (*.%1)</source>
+        <translation type="vanished">ヘッダファイル (*.%1)</translation>
     </message>
     <message>
         <source>%1 - [%2 Code]</source>
@@ -3750,6 +3818,10 @@ Do you want overwrite the template?</source>
     <message>
         <source>Inherited</source>
         <translation>親から継承</translation>
+    </message>
+    <message>
+        <source>[Theme] %1</source>
+        <translation type="vanished">[テーマ] %1</translation>
     </message>
     <message>
         <source>Horizontal</source>
@@ -4288,6 +4360,38 @@ Do you want overwrite the template?</source>
         <translation>...</translation>
     </message>
     <message>
+        <source>Normal Off</source>
+        <translation type="vanished">通常 オフ</translation>
+    </message>
+    <message>
+        <source>Normal On</source>
+        <translation type="vanished">通常 オン</translation>
+    </message>
+    <message>
+        <source>Disabled Off</source>
+        <translation type="vanished">無効化 オフ</translation>
+    </message>
+    <message>
+        <source>Disabled On</source>
+        <translation type="vanished">無効化 オン</translation>
+    </message>
+    <message>
+        <source>Active Off</source>
+        <translation type="vanished">アクティブ オフ</translation>
+    </message>
+    <message>
+        <source>Active On</source>
+        <translation type="vanished">アクティブ オン</translation>
+    </message>
+    <message>
+        <source>Selected Off</source>
+        <translation type="vanished">選択済み オフ</translation>
+    </message>
+    <message>
+        <source>Selected On</source>
+        <translation type="vanished">選択済み オン</translation>
+    </message>
+    <message>
         <source>Choose Resource...</source>
         <translation>リソースを選択...</translation>
     </message>
@@ -4306,6 +4410,14 @@ Do you want overwrite the template?</source>
 </context>
 <context>
     <name>qdesigner_internal::IconThemeDialog</name>
+    <message>
+        <source>Set Icon From Theme</source>
+        <translation type="vanished">テーマからアイコンを設定する</translation>
+    </message>
+    <message>
+        <source>Input icon name from the current theme:</source>
+        <translation type="vanished">現在のテーマからアイコンの名前を入力:</translation>
+    </message>
     <message>
         <source>Set Icon From XDG Theme</source>
         <translation>XDGテーマからアイコンを設定</translation>
@@ -4467,6 +4579,10 @@ Do you want overwrite the template?</source>
     <message>
         <source>...</source>
         <translation>...</translation>
+    </message>
+    <message>
+        <source>Icon th&amp;eme:</source>
+        <translation type="vanished">アイコンテーマ(&amp;E):</translation>
     </message>
     <message>
         <source>&amp;Icon:</source>
@@ -4644,6 +4760,10 @@ Please select another name.</source>
     <message>
         <source>Change Current Page</source>
         <translation>現在のページを変更</translation>
+    </message>
+    <message>
+        <source>&amp;Find in Text...</source>
+        <translation type="vanished">テキストを検索(&amp;F)...</translation>
     </message>
 </context>
 <context>
@@ -4892,6 +5012,14 @@ Please select another name.</source>
         <translation>コピー</translation>
     </message>
     <message>
+        <source>Qt Designer couldn&apos;t find any plugins</source>
+        <translation type="vanished">プラグインは見つかりませんでした</translation>
+    </message>
+    <message>
+        <source>Qt Designer found the following plugins</source>
+        <translation type="vanished">以下のプラグインが見つかりました</translation>
+    </message>
+    <message>
         <source>New custom widget plugins have been found.</source>
         <translation>新しいカスタムウィジェットのプラグインが見つかりました。</translation>
     </message>
@@ -5005,9 +5133,24 @@ ate the goose who was loose.</source>
         <translation>プッシュボタン</translation>
     </message>
     <message>
+        <source>ButtonGroup2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation type="vanished">ボタングループ2</translation>
+    </message>
+    <message>
         <source>CheckBox1</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>チェックボックス1</translation>
+    </message>
+    <message>
+        <source>CheckBox2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation type="vanished">チェックボックス2</translation>
+    </message>
+    <message>
+        <source>ButtonGroup</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
+        <translation type="vanished">ボタングループ</translation>
     </message>
     <message>
         <source>RadioButton1</source>
@@ -5384,6 +5527,10 @@ Class: %2</source>
         <source>Edit WhatsThis</source>
         <translation>ヒントを編集</translation>
     </message>
+    <message>
+        <source>no signals available</source>
+        <translation type="vanished">シグナルがありません</translation>
+    </message>
     <message numerus="yes">
         <source>Set size constraint on %n widget(s)</source>
         <translation>
@@ -5408,6 +5555,22 @@ Class: %2</source>
 %2</source>
         <translation>ウィジェット %1 を定義する XML のコードにどのウィジェットの要素もありません。
 %2</translation>
+    </message>
+    <message>
+        <source>An error has been encountered at line %1 of %2: %3</source>
+        <translation type="vanished">%2 の %1 行目でエラーが発生しました: %3</translation>
+    </message>
+    <message>
+        <source>Unexpected element &lt;%1&gt; encountered when parsing for &lt;widget&gt; or &lt;ui&gt;</source>
+        <translation type="vanished">&lt;widget&gt; もしくは &lt;ui&gt; のパース中に予期せぬ要素 &lt;%1&gt; が現れました</translation>
+    </message>
+    <message>
+        <source>Unexpected end of file encountered when parsing widgets.</source>
+        <translation type="vanished">ウィジェットのパース中に予期せずファイルが途中で終了しました。</translation>
+    </message>
+    <message>
+        <source>A widget element could not be found.</source>
+        <translation type="vanished">ウィジェット要素が見つかりません。</translation>
     </message>
 </context>
 <context>

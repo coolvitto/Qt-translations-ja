@@ -1,11 +1,264 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ja">
+<TS version="2.1" language="ja_JP">
+<context>
+    <name>AVFCameraControl</name>
+    <message>
+        <source>Requested capture mode is not supported</source>
+        <translation type="vanished">要求されたキャプチャモードはサポートされていません</translation>
+    </message>
+</context>
 <context>
     <name>AVFCameraSession</name>
     <message>
         <source>Runtime camera error</source>
         <translation>実行時のカメラエラー</translation>
+    </message>
+</context>
+<context>
+    <name>AVFImageCaptureControl</name>
+    <message>
+        <source>Camera not ready</source>
+        <translation type="vanished">カメラが準備できていません</translation>
+    </message>
+    <message>
+        <source>Could not open destination file:
+%1</source>
+        <translation type="vanished">保存先のファイルを開けませんでした:
+%1</translation>
+    </message>
+</context>
+<context>
+    <name>AVFImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation type="vanished">JPEG 画像</translation>
+    </message>
+</context>
+<context>
+    <name>AVFMediaPlayerSession</name>
+    <message>
+        <source>Failed to load media</source>
+        <translation type="vanished">メディアの読み込みに失敗しました</translation>
+    </message>
+</context>
+<context>
+    <name>AVFMediaRecorderControl</name>
+    <message>
+        <source>Recorder not configured</source>
+        <translation type="vanished">レコーダが設定されていません</translation>
+    </message>
+    <message>
+        <source>Recording pause not supported</source>
+        <translation type="vanished">録画時の一時停止はサポートされていません</translation>
+    </message>
+    <message>
+        <source>Could not connect the video recorder</source>
+        <translation type="vanished">ビデオレコーダに接続できませんでした</translation>
+    </message>
+</context>
+<context>
+    <name>AVFMediaRecorderControlIOS</name>
+    <message>
+        <source>Failed to start recording</source>
+        <translation type="vanished">録画の開始に失敗しました</translation>
+    </message>
+    <message>
+        <source>Invalid output file URL</source>
+        <translation type="vanished">出力ファイルのURLが無効です</translation>
+    </message>
+    <message>
+        <source>Non-writeable file location</source>
+        <translation type="vanished">書き込み不可能なファイルのパスです</translation>
+    </message>
+    <message>
+        <source>File already exists</source>
+        <translation type="vanished">ファイルは既に存在します</translation>
+    </message>
+    <message>
+        <source>Recording pause not supported</source>
+        <translation type="vanished">録画時の一時停止はサポートされていません</translation>
+    </message>
+</context>
+<context>
+    <name>AudioContainerControl</name>
+    <message>
+        <source>RAW (headerless) file format</source>
+        <translation type="vanished">RAW(ヘッダなし)ファイル形式</translation>
+    </message>
+    <message>
+        <source>WAV file format</source>
+        <translation type="vanished">WAV ファイル形式</translation>
+    </message>
+</context>
+<context>
+    <name>AudioEncoderControl</name>
+    <message>
+        <source>Linear PCM audio data</source>
+        <translation type="vanished">リニアPCM音声データ</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraAudioEncoderSettingsControl</name>
+    <message>
+        <source>No compression</source>
+        <translation type="vanished">非圧縮</translation>
+    </message>
+    <message>
+        <source>AAC compression</source>
+        <translation type="vanished">AAC 圧縮</translation>
+    </message>
+    <message>
+        <source>PCM uncompressed</source>
+        <translation type="vanished">PCM 非圧縮</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraMediaRecorderControl</name>
+    <message>
+        <source>Unable to retrieve mute status</source>
+        <translation type="vanished">ミュートの状態を取得できません</translation>
+    </message>
+    <message>
+        <source>Unable to retrieve audio input volume</source>
+        <translation type="vanished">オーディオ入力のボリュームを取得できません</translation>
+    </message>
+    <message>
+        <source>Unable to set mute status</source>
+        <translation type="vanished">ミュートの状態を設定できません</translation>
+    </message>
+    <message>
+        <source>Unable to set audio input volume</source>
+        <translation type="vanished">オーディオ入力のボリュームを設定できません</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraSession</name>
+    <message>
+        <source>Camera provides image in unsupported format</source>
+        <translation type="vanished">カメラが提供する画像形式はサポートされていません</translation>
+    </message>
+    <message>
+        <source>Could not load JPEG data from frame</source>
+        <translation type="vanished">フレームから JPEG データを読み込めません</translation>
+    </message>
+    <message>
+        <source>Camera not ready</source>
+        <translation type="vanished">カメラが準備できていません</translation>
+    </message>
+    <message>
+        <source>Unable to apply video settings</source>
+        <translation type="vanished">ビデオの設定を反映できません</translation>
+    </message>
+    <message>
+        <source>Could not open destination file:
+%1</source>
+        <translation type="vanished">保存先のファイルを開けませんでした:
+%1</translation>
+    </message>
+    <message>
+        <source>Unable to open camera</source>
+        <translation type="vanished">カメラを開けません</translation>
+    </message>
+    <message>
+        <source>Unable to retrieve native camera orientation</source>
+        <translation type="vanished">カメラのネイティブの方向を取得できません</translation>
+    </message>
+    <message>
+        <source>Unable to close camera</source>
+        <translation type="vanished">カメラを閉じれません</translation>
+    </message>
+    <message>
+        <source>Unable to start video recording</source>
+        <translation type="vanished">ビデオ録画を開始できません</translation>
+    </message>
+    <message>
+        <source>Unable to stop video recording</source>
+        <translation type="vanished">ビデオ録画を停止できません</translation>
+    </message>
+</context>
+<context>
+    <name>BbCameraVideoEncoderSettingsControl</name>
+    <message>
+        <source>No compression</source>
+        <translation type="vanished">非圧縮</translation>
+    </message>
+    <message>
+        <source>AVC1 compression</source>
+        <translation type="vanished">AVC1 圧縮</translation>
+    </message>
+    <message>
+        <source>H264 compression</source>
+        <translation type="vanished">H264 圧縮</translation>
+    </message>
+</context>
+<context>
+    <name>BbImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation type="vanished">JPEG 画像</translation>
+    </message>
+</context>
+<context>
+    <name>BbVideoDeviceSelectorControl</name>
+    <message>
+        <source>Front Camera</source>
+        <translation type="vanished">フロントカメラ</translation>
+    </message>
+    <message>
+        <source>Rear Camera</source>
+        <translation type="vanished">リアカメラ</translation>
+    </message>
+    <message>
+        <source>Desktop Camera</source>
+        <translation type="vanished">デスクトップカメラ</translation>
+    </message>
+</context>
+<context>
+    <name>CameraBinImageCapture</name>
+    <message>
+        <source>Camera not ready</source>
+        <translation type="vanished">カメラが準備できていません</translation>
+    </message>
+</context>
+<context>
+    <name>CameraBinImageEncoder</name>
+    <message>
+        <source>JPEG image</source>
+        <translation type="vanished">JPEG 画像</translation>
+    </message>
+</context>
+<context>
+    <name>CameraBinRecorder</name>
+    <message>
+        <source>QMediaRecorder::pause() is not supported by camerabin2.</source>
+        <translation type="vanished">camerabin2 は QMediaRecorder::pause() をサポートしていません。</translation>
+    </message>
+    <message>
+        <source>Service has not been started</source>
+        <translation type="vanished">サービスが開始されていません</translation>
+    </message>
+    <message>
+        <source>Recording permissions are not available</source>
+        <translation type="vanished">録画の権限がありません</translation>
+    </message>
+</context>
+<context>
+    <name>CameraBinSession</name>
+    <message>
+        <source>Camera error</source>
+        <translation type="vanished">カメラでエラーが発生しました</translation>
+    </message>
+</context>
+<context>
+    <name>DSCameraSession</name>
+    <message>
+        <source>Camera not ready for capture</source>
+        <translation type="vanished">カメラはキャプチャする準備ができていません</translation>
+    </message>
+    <message>
+        <source>Could not save image to file.</source>
+        <translation type="vanished">画像をファイルに保存できませんでした。</translation>
     </message>
 </context>
 <context>
@@ -128,7 +381,39 @@
     </message>
 </context>
 <context>
+    <name>QAndroidAudioEncoderSettingsControl</name>
+    <message>
+        <source>Adaptive Multi-Rate Narrowband (AMR-NB) audio codec</source>
+        <translation type="vanished">狭帯域用適応多重レート(AMR-NB)音声コーデック</translation>
+    </message>
+    <message>
+        <source>Adaptive Multi-Rate Wideband (AMR-WB) audio codec</source>
+        <translation type="vanished">広帯域用適応多重レート(AMR-WB)音声コーデック</translation>
+    </message>
+    <message>
+        <source>AAC Low Complexity (AAC-LC) audio codec</source>
+        <translation type="vanished">AAL-LC 音声コーデック</translation>
+    </message>
+</context>
+<context>
     <name>QAndroidCameraSession</name>
+    <message>
+        <source>Camera cannot be started without a viewfinder.</source>
+        <translation type="vanished">カメラはビューファインダ無しでは開始できません。</translation>
+    </message>
+    <message>
+        <source>Camera not ready</source>
+        <translation type="vanished">カメラが使用可能ではありません</translation>
+    </message>
+    <message>
+        <source>Drive mode not supported</source>
+        <extracomment>Drive mode is the camera&apos;s shutter mode, for example single shot, continuos exposure, etc.</extracomment>
+        <translation type="vanished">ドライブモードはサポートされていません</translation>
+    </message>
+    <message>
+        <source>Could not open destination file: %1</source>
+        <translation type="vanished">保存先のファイルを開けませんでした: %1</translation>
+    </message>
     <message>
         <source>Failed to capture image</source>
         <translation>画像のキャプチャに失敗しました</translation>
@@ -147,10 +432,173 @@
     </message>
 </context>
 <context>
+    <name>QAndroidImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation type="vanished">JPEG 画像</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidMediaContainerControl</name>
+    <message>
+        <source>MPEG4 media file format</source>
+        <translation type="vanished">MPEG4 メディアファイル形式</translation>
+    </message>
+    <message>
+        <source>3GPP media file format</source>
+        <translation type="vanished">3GPP メディアファイル形式</translation>
+    </message>
+    <message>
+        <source>AMR NB file format</source>
+        <translation type="vanished">AMR NB ファイル形式</translation>
+    </message>
+    <message>
+        <source>AMR WB file format</source>
+        <translation type="vanished">AMR WB ファイル形式</translation>
+    </message>
+</context>
+<context>
+    <name>QAndroidVideoEncoderSettingsControl</name>
+    <message>
+        <source>H.263 compression</source>
+        <translation type="vanished">H.263 圧縮</translation>
+    </message>
+    <message>
+        <source>H.264 compression</source>
+        <translation type="vanished">H.264 圧縮</translation>
+    </message>
+    <message>
+        <source>MPEG-4 SP compression</source>
+        <translation type="vanished">MPEG-4 SP 圧縮</translation>
+    </message>
+</context>
+<context>
     <name>QAudioDecoder</name>
+    <message>
+        <source>The QAudioDecoder object does not have a valid service</source>
+        <translation type="vanished">QAudioDecoder には有効なサービスがありません</translation>
+    </message>
     <message>
         <source>QAudioDecoder not supported.</source>
         <translation>QAudioDecoder はサポートされていません。</translation>
+    </message>
+</context>
+<context>
+    <name>QCamera</name>
+    <message>
+        <source>The camera service is missing</source>
+        <translation type="vanished">カメラサービスがありません</translation>
+    </message>
+</context>
+<context>
+    <name>QCameraImageCapture</name>
+    <message>
+        <source>Device does not support images capture.</source>
+        <translation type="vanished">デバイスが画像のキャプチャをサポートしていません。</translation>
+    </message>
+</context>
+<context>
+    <name>QDeclarativeAudio</name>
+    <message>
+        <source>volume should be between 0.0 and 1.0</source>
+        <translation type="vanished">ボリュームは 0.0 から 1.0 の間の値で指定してください</translation>
+    </message>
+</context>
+<context>
+    <name>QGstreamerAudioDecoderSession</name>
+    <message>
+        <source>Cannot play stream of type: &lt;unknown&gt;</source>
+        <translation type="vanished">再生不可能な型のストリームです: &lt;不明&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>QGstreamerAudioEncode</name>
+    <message>
+        <source>Raw PCM audio</source>
+        <translation type="vanished">PCM オーディオ</translation>
+    </message>
+</context>
+<context>
+    <name>QGstreamerAudioInputSelector</name>
+    <message>
+        <source>System default device</source>
+        <translation type="vanished">システムのデフォルトデバイス</translation>
+    </message>
+</context>
+<context>
+    <name>QGstreamerCameraControl</name>
+    <message>
+        <source>State not supported.</source>
+        <translation type="vanished">サポートされていない状態です。</translation>
+    </message>
+</context>
+<context>
+    <name>QGstreamerCaptureSession</name>
+    <message>
+        <source>Could not create an audio source element</source>
+        <translation type="vanished">オーディオソースエレメントを作成できませんでした</translation>
+    </message>
+    <message>
+        <source>Failed to build media capture pipeline.</source>
+        <translation type="vanished">メディアキャプチャパイプラインの構築に失敗しました。</translation>
+    </message>
+</context>
+<context>
+    <name>QGstreamerImageCaptureControl</name>
+    <message>
+        <source>Not ready to capture</source>
+        <translation type="vanished">キャプチャの準備ができていません</translation>
+    </message>
+</context>
+<context>
+    <name>QGstreamerImageEncode</name>
+    <message>
+        <source>JPEG image encoder</source>
+        <translation type="vanished">JPEG 画像エンコーダ</translation>
+    </message>
+</context>
+<context>
+    <name>QGstreamerPlayerControl</name>
+    <message>
+        <source>Attempting to play invalid user stream</source>
+        <translation type="vanished">無効なユーザストリームを再生しようとしています</translation>
+    </message>
+</context>
+<context>
+    <name>QGstreamerPlayerSession</name>
+    <message>
+        <source>Cannot play stream of type: &lt;unknown&gt;</source>
+        <translation type="vanished">再生不可能な型のストリームです: &lt;不明&gt;</translation>
+    </message>
+    <message>
+        <source>UDP source timeout</source>
+        <translation type="vanished">UDP ソースがタイムアウトしました</translation>
+    </message>
+    <message>
+        <source>Media is loaded as a playlist</source>
+        <translation type="vanished">メディアがプレイリストとして読み込まれました</translation>
+    </message>
+</context>
+<context>
+    <name>QGstreamerRecorderControl</name>
+    <message>
+        <source>Service has not been started</source>
+        <translation type="vanished">サービスが開始されていません</translation>
+    </message>
+    <message>
+        <source>Not compatible codecs and container format.</source>
+        <translation type="vanished">互換性のないコーデックおよびコンテナ形式です。</translation>
+    </message>
+</context>
+<context>
+    <name>QGstreamerVideoInputDeviceControl</name>
+    <message>
+        <source>Main camera</source>
+        <translation type="vanished">メインカメラ</translation>
+    </message>
+    <message>
+        <source>Front camera</source>
+        <translation type="vanished">フロントカメラ</translation>
     </message>
 </context>
 <context>
@@ -164,12 +612,107 @@
         <translation>再生中に一時ファイルを確立できませんでした</translation>
     </message>
     <message>
+        <source>The QMediaPlayer object does not have a valid service</source>
+        <translation type="vanished">QMediaPlayer には有効なサービスがありません</translation>
+    </message>
+    <message>
         <source>Could not open file</source>
         <translation>ファイルを開けませんでした</translation>
     </message>
     <message>
         <source>Could not find stream information for media file</source>
         <translation>メディアファイルのストリーム情報が見つかりませんでした</translation>
+    </message>
+</context>
+<context>
+    <name>QMediaPlaylist</name>
+    <message>
+        <source>Could not add items to read only playlist.</source>
+        <translation type="vanished">読み込み専用のプレイリストにはアイテムを追加できません。</translation>
+    </message>
+    <message>
+        <source>Playlist format is not supported</source>
+        <translation type="vanished">サポートされていないプレイリストの形式です</translation>
+    </message>
+    <message>
+        <source>The file could not be accessed.</source>
+        <translation type="vanished">ファイルにアクセスできませんでした。</translation>
+    </message>
+    <message>
+        <source>Playlist format is not supported.</source>
+        <translation type="vanished">サポートされていないプレイリストの形式です。</translation>
+    </message>
+</context>
+<context>
+    <name>QMultimediaDeclarativeModule</name>
+    <message>
+        <source>CameraCapture is provided by Camera</source>
+        <translation type="vanished">Camera エレメントが提供する CameraCapture エレメント</translation>
+    </message>
+    <message>
+        <source>CameraRecorder is provided by Camera</source>
+        <translation type="vanished">Camera エレメントが提供する CameraRecorder エレメント</translation>
+    </message>
+    <message>
+        <source>CameraExposure is provided by Camera</source>
+        <translation type="vanished">Camera エレメントが提供する CameraExposure エレメント</translation>
+    </message>
+    <message>
+        <source>CameraFocus is provided by Camera</source>
+        <translation type="vanished">Camera エレメントが提供する CameraFocus エレメント</translation>
+    </message>
+    <message>
+        <source>CameraFlash is provided by Camera</source>
+        <translation type="vanished">Camera エレメントが提供する CameraFlash エレメント</translation>
+    </message>
+    <message>
+        <source>CameraImageProcessing is provided by Camera</source>
+        <translation type="vanished">Camera エレメントが提供する CameraImageProcessing エレメント</translation>
+    </message>
+    <message>
+        <source>CameraViewfinder is provided by Camera</source>
+        <translation type="vanished">Camera エレメントが提供する CameraViewfinder エレメント</translation>
+    </message>
+</context>
+<context>
+    <name>QPlaylistFileParser</name>
+    <message>
+        <source>%1 playlist type is unknown</source>
+        <translation type="vanished">プレイリスト %1 の形式が不明です</translation>
+    </message>
+    <message>
+        <source>invalid line in playlist file</source>
+        <translation type="vanished">プレイリストに無効な行があります</translation>
+    </message>
+    <message>
+        <source>Empty file provided</source>
+        <translation type="vanished">ファイルが空です</translation>
+    </message>
+    <message>
+        <source>%1 does not exist</source>
+        <translation type="vanished">%1 が存在しません</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTCameraImageCaptureControl</name>
+    <message>
+        <source>Camera not ready</source>
+        <translation type="vanished">カメラが準備できていません</translation>
+    </message>
+    <message>
+        <source>Invalid photo data length.</source>
+        <translation type="vanished">画像のデータ長が無効です。</translation>
+    </message>
+    <message>
+        <source>Image saving failed</source>
+        <translation type="vanished">画像の保存に失敗しました</translation>
+    </message>
+</context>
+<context>
+    <name>QWinRTImageEncoderControl</name>
+    <message>
+        <source>JPEG image</source>
+        <translation type="vanished">JPEG 画像</translation>
     </message>
 </context>
 <context>
@@ -386,6 +929,11 @@
 <context>
     <name>AVFAudioDecoder</name>
     <message>
+        <location filename="../../qtmultimedia/src/plugins/multimedia/darwin/avfaudiodecoder.mm" line="+283"/>
+        <source>Failed to create URL for the device</source>
+        <translation>デバイスのURLを作成できませんでした</translation>
+    </message>
+    <message>
         <source>Unable to read from specified device</source>
         <translation>指定されたデバイスから読み取れません</translation>
     </message>
@@ -413,25 +961,6 @@
 %1</source>
         <translation>保存先のファイルを開けませんでした:
 %1</translation>
-    </message>
-</context>
-<context>
-    <name>AVFMediaEncoder</name>
-    <message>
-        <source>No inputs specified</source>
-        <translation>入力が指定されていません</translation>
-    </message>
-    <message>
-        <source>Invalid output file URL</source>
-        <translation>出力ファイルのURLが無効です</translation>
-    </message>
-    <message>
-        <source>Non-writeable file location</source>
-        <translation>書き込み不可能なファイルのパスです</translation>
-    </message>
-    <message>
-        <source>File already exists</source>
-        <translation>ファイルは既に存在します</translation>
     </message>
 </context>
 <context>
@@ -515,6 +1044,25 @@
     <message>
         <source>Recording error</source>
         <translation>録音エラー</translation>
+    </message>
+</context>
+<context>
+    <name>AVFMediaEncoder</name>
+    <message>
+        <source>No inputs specified</source>
+        <translation>入力が指定されていません</translation>
+    </message>
+    <message>
+        <source>Invalid output file URL</source>
+        <translation>出力ファイルのURLが無効です</translation>
+    </message>
+    <message>
+        <source>Non-writeable file location</source>
+        <translation>書き込み不可能なファイルのパスです</translation>
+    </message>
+    <message>
+        <source>File already exists</source>
+        <translation>ファイルは既に存在します</translation>
     </message>
 </context>
 </TS>

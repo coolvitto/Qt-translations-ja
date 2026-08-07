@@ -174,6 +174,10 @@ Will assume a single universal form.</source>
         <translation>翻訳がソーステキストと同じ場所マーカーを参照していません。</translation>
     </message>
     <message>
+        <source>Translation does not contain the necessary %n place marker.</source>
+        <translation type="vanished">訳語に必要なプレースマーカー &quot;%&quot; が %n 個足りません。</translation>
+    </message>
+    <message>
         <source>Unknown error</source>
         <translation>未知のエラー</translation>
     </message>
@@ -326,6 +330,60 @@ Will assume a single universal form.</source>
     <message>
         <source>Delete non-empty length variant?</source>
         <translation>空ではない単数形・複数形を削除しますか?</translation>
+    </message>
+</context>
+<context>
+    <name>LRelease</name>
+    <message numerus="yes">
+        <source>Dropped %n message(s) which had no ID.</source>
+        <translation type="vanished">
+            <numerusform>ID のない %n 件のメッセージを無視しました。</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>Excess context/disambiguation dropped from %n message(s).</source>
+        <translation type="vanished">
+            <numerusform>不要な文脈やあいまいさ回避のコメントを %n 件のメッセージで無視しました。</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>    Generated %n translation(s) (%1 finished and %2 unfinished)</source>
+        <translation type="vanished">
+            <numerusform>     %n 件のメッセージを翻訳しました(完了 %1 件、未完了 %2 件)</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>    Ignored %n untranslated source text(s)</source>
+        <translation type="vanished">
+            <numerusform>     %n 件の未翻訳のソーステキストを無視しました</numerusform>
+        </translation>
+    </message>
+</context>
+<context>
+    <name>Linguist</name>
+    <message>
+        <source>GNU Gettext localization files</source>
+        <translation type="vanished">GNU Gettext ローカライゼーションファイル</translation>
+    </message>
+    <message>
+        <source>GNU Gettext localization template files</source>
+        <translation type="vanished">GNU Gettext ローカライゼーションテンプレートファイル</translation>
+    </message>
+    <message>
+        <source>Compiled Qt translations</source>
+        <translation type="vanished">コンパイル済み Qt 翻訳ファイル</translation>
+    </message>
+    <message>
+        <source>Qt Linguist &apos;Phrase Book&apos;</source>
+        <translation type="vanished">Qt Linguist &apos;フレーズ ブック&apos;</translation>
+    </message>
+    <message>
+        <source>Qt translation sources</source>
+        <translation type="vanished">Qt 翻訳ソース</translation>
+    </message>
+    <message>
+        <source>XLIFF localization files</source>
+        <translation type="vanished">XLIFF ローカライゼーションファイル</translation>
     </message>
 </context>
 <context>
@@ -643,16 +701,48 @@ Will assume a single universal form.</source>
         <translation>アクセラレータの確認(&amp;A)</translation>
     </message>
     <message>
+        <source>Toggle the validity check of accelerators</source>
+        <translation type="vanished">アクセラレータのチェックを有効にするかどうかを切り替えます</translation>
+    </message>
+    <message>
+        <source>Toggle the validity check of accelerators, i.e. whether the number of ampersands in the source and translation text is the same. If the check fails, a message is shown in the warnings window.</source>
+        <translation type="vanished">ソーステキストと訳語のアクセラレータの個数が同じか否かのチェックを有効にするかどうかを切り替えます。チェックが無効になっていても、警告ウィンドウにメッセージは表示されます。</translation>
+    </message>
+    <message>
         <source>&amp;Ending Punctuation</source>
         <translation>末尾の句読点(&amp;E)</translation>
+    </message>
+    <message>
+        <source>Toggle the validity check of ending punctuation</source>
+        <translation type="vanished">末尾の句読点のチェックを有効にするかどうかを切り替えます</translation>
+    </message>
+    <message>
+        <source>Toggle the validity check of ending punctuation. If the check fails, a message is shown in the warnings window.</source>
+        <translation type="vanished">末尾の句読点のチェックを有効にするかどうかを切り替えます。チェックが無効になっていても、警告ウィンドウにメッセージが表示されます。</translation>
     </message>
     <message>
         <source>&amp;Phrase matches</source>
         <translation>フレーズの一致(&amp;P)</translation>
     </message>
     <message>
+        <source>Toggle checking that phrase suggestions are used</source>
+        <translation type="vanished">フレーズの示唆を使うかどうかのチェックを切り替えます</translation>
+    </message>
+    <message>
+        <source>Toggle checking that phrase suggestions are used. If the check fails, a message is shown in the warnings window.</source>
+        <translation type="vanished">フレーズの示唆を使うかどうかのチェックを切り替えます。チェックが無効になっていても、警告ウィンドウにメッセージが表示されます。</translation>
+    </message>
+    <message>
         <source>Place &amp;Marker Matches</source>
         <translation>&quot;%&quot; の数や数字の一致(&amp;M)</translation>
+    </message>
+    <message>
+        <source>Toggle the validity check of place markers</source>
+        <translation type="vanished">&quot;%&quot; の数や番号のチェックを行うかどうかを切り替えます</translation>
+    </message>
+    <message>
+        <source>Toggle the validity check of place markers, i.e. whether %1, %2, ... are used consistently in the source text and translation text. If the check fails, a message is shown in the warnings window.</source>
+        <translation type="vanished">ソーステキストと訳語の&quot;%1&quot;や&quot;%2&quot;等のプレースマーカーの整合が取れているか否かのチェックを行うかどうかを切り替えます。チェックが無効になっていても、警告ウィンドウにメッセージは表示されます。</translation>
     </message>
     <message>
         <source>&amp;New Phrase Book...</source>
@@ -1091,6 +1181,10 @@ All files (*)</source>
         <translation>バージョン %1</translation>
     </message>
     <message>
+        <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</source>
+        <translation type="vanished">&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist は Qt アプリケーションを翻訳するためのツールです。&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
+    </message>
+    <message>
         <source>Do you want to save the modified files?</source>
         <translation>変更されたファイルを保存しますか?</translation>
     </message>
@@ -1121,6 +1215,14 @@ All files (*)</source>
     <message>
         <source>Ctrl+M</source>
         <translation>Ctrl+M</translation>
+    </message>
+    <message>
+        <source>Display the manual for %1.</source>
+        <translation type="vanished">%1 のマニュアルを表示します。</translation>
+    </message>
+    <message>
+        <source>Display information about %1.</source>
+        <translation type="vanished">%1 についての情報を表示します。</translation>
     </message>
     <message>
         <source>&amp;Save &apos;%1&apos;</source>
@@ -1223,6 +1325,10 @@ All files (*)</source>
     <message>
         <source>Visualize whitespace</source>
         <translation>空白を表示</translation>
+    </message>
+    <message>
+        <source>Toggle visualize whitespace in editors</source>
+        <translation type="vanished">エディタで空白を表示するかどうかを切り替えます</translation>
     </message>
     <message>
         <source>&amp;Zoom</source>
@@ -1365,6 +1471,30 @@ All files (*)</source>
         <translation></translation>
     </message>
     <message>
+        <source>Russian</source>
+        <translation type="vanished">ロシア語</translation>
+    </message>
+    <message>
+        <source>German</source>
+        <translation type="vanished">ドイツ語</translation>
+    </message>
+    <message>
+        <source>Japanese</source>
+        <translation type="vanished">日本語</translation>
+    </message>
+    <message>
+        <source>French</source>
+        <translation type="vanished">フランス語</translation>
+    </message>
+    <message>
+        <source>Polish</source>
+        <translation type="vanished">ポーランド語</translation>
+    </message>
+    <message>
+        <source>Chinese</source>
+        <translation type="vanished">中国語</translation>
+    </message>
+    <message>
         <source>This whole panel allows you to view and edit the translation of some source text.</source>
         <translation>このパネル全体でソーステキストの翻訳を見たり編集したりすることができます。</translation>
     </message>
@@ -1417,8 +1547,20 @@ All files (*)</source>
         <translation>%1 の翻訳者コメント</translation>
     </message>
     <message>
+        <source>%1 translation (%2)</source>
+        <translation type="vanished">%1 翻訳 (%2)</translation>
+    </message>
+    <message>
         <source>This is where you can enter or modify the translation of the above source text.</source>
         <translation>ソーステキストの翻訳を入力したり変更したりできるところです。</translation>
+    </message>
+    <message>
+        <source>%1 translation</source>
+        <translation type="vanished">%1 訳</translation>
+    </message>
+    <message>
+        <source>%1 translator comments</source>
+        <translation type="vanished">%1 翻訳者のコメント</translation>
     </message>
     <message>
         <source>&apos;%1&apos;
@@ -1591,6 +1733,14 @@ Line: %2</source>
     <message>
         <source>Guess from &apos;%1&apos;</source>
         <translation>&apos;%1&apos; からの提案</translation>
+    </message>
+    <message>
+        <source>Guess (%1)</source>
+        <translation type="vanished">推測(%1)</translation>
+    </message>
+    <message>
+        <source>Guess</source>
+        <translation type="vanished">推測</translation>
     </message>
 </context>
 <context>
@@ -1776,6 +1926,10 @@ Line: %2</source>
         <source>Any Territory</source>
         <translation>任意の地域</translation>
     </message>
+    <message>
+        <source>Any Country</source>
+        <translation type="vanished">指定しない</translation>
+    </message>
 </context>
 <context>
     <name>MachineTranslationDialog</name>
@@ -1864,10 +2018,6 @@ Line: %2</source>
         <translation>既定値へリセット</translation>
     </message>
     <message>
-        <source>Advanced Settings</source>
-        <translation>高度な設定 +</translation>
-    </message>
-    <message>
         <source>Next</source>
         <translation>次へ</translation>
     </message>
@@ -1901,7 +2051,7 @@ Line: %2</source>
     </message>
     <message>
         <source>Text Based</source>
-        <translation>テキストベース</translation>
+        <translation>テキスト ベース</translation>
     </message>
     <message>
         <source>ID Based</source>
@@ -2064,8 +2214,8 @@ Line: %2</source>
         <translation>URLが変更されました - 適用するには「接続」をクリックしてください</translation>
     </message>
     <message>
-        <source>Advanced Settings -</source>
-        <translation>高度な設定 -</translation>
+        <source>Advanced Settings</source>
+        <translation>高度な設定 +</translation>
     </message>
     <message>
         <source>Warning: Maximum JSON Format Tries: Low value may cause unnecessary format switching due to temporary errors. Recommended: 3 or higher.</source>
@@ -2076,6 +2226,10 @@ Line: %2</source>
         <source>Warning: Maximum Retries: Should be at least 3x &apos;Maximum JSON Format Tries&apos; for full fallback coverage</source>
         <extracomment>&quot;Maximum Retries&quot; and &quot;Maximum JSON Format Tries&quot; should use the same translations as the labels &quot;Maximum Retries&quot; and &quot;Maximum JSON Format Tries&quot; in Advanced Settings</extracomment>
         <translation>警告 : 最大再試行回数 : フォールバックを完全にカバーするには、少なくとも「JSON 形式の最大再試行回数」の 3 倍にする必要があります</translation>
+    </message>
+    <message>
+        <source>Advanced Settings -</source>
+        <translation>高度な設定 -</translation>
     </message>
 </context>
 <context>
