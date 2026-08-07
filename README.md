@@ -9,6 +9,7 @@ This repository contains Japanese translation (\*_ja.ts) files for Qt.
 - 
 - Qt Creator
 
+## 🔹.ts ファイル
 　　https://l10n-files.qt.io/l10n-files/</br>
 　　https://code.qt.io/cgit/qt/</br></br>
   
