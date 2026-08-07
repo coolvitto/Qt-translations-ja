@@ -65,6 +65,9 @@ This repository contains Japanese translation (\*_ja.ts) files for Qt.
 ---
 ### 🔸更新履歴 (Update history)
 
+**2026-08-08**
+ - Update Qt 6.11
+
 **2026-06-18**
  - Add Qt-Creator_20.0.0 追加
 
