@@ -1,0 +1,65 @@
+
+＊ I:\Toolz\Win Tools\linguist_6.10.0\lconvert.exeへのパスを通す
+setx PATH "%PATH%;G:\Tools\linguist_6.10.0"
+
+更新ファイルのダウンロード : https://l10n-files.qt.io/l10n-files/ (右クリで保存)
+
+コマンド :
+lconvert -i ダウンロードしたパス\********_ja.ts 翻訳済みのパス\********_ja.ts -o 更新の保存パス\********_ja.ts
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Qt 6.10 の更新 (統合)
+lconvert -i H:\Project\Qt_6.11\2026-08-08\assistant_ja.ts H:\Project\Qt_6.11\assistant_ja.ts -o H:\Project\Qt_6.11\assistant_ja_merged.ts
+lconvert -i H:\Project\Qt_6.11\2026-08-08\designer_ja.ts H:\Project\Qt_6.11\designer_ja.ts -o H:\Project\Qt_6.11\designer_ja_merged.ts
+lconvert -i H:\Project\Qt_6.11\2026-08-08\linguist_ja.ts H:\Project\Qt_6.11\linguist_ja.ts -o H:\Project\Qt_6.11\linguist_ja_merged.ts
+lconvert -i H:\Project\Qt_6.11\2026-08-08\qt_help_ja.ts H:\Project\Qt_6.11\qt_help_ja.ts -o H:\Project\Qt_6.11\qt_help_ja_merged.ts
+lconvert -i H:\Project\Qt_6.11\2026-08-08\qtbase_ja.ts H:\Project\Qt_6.11\qtbase_ja.ts -o H:\Project\Qt_6.11\qtbase_ja_merged.ts
+lconvert -i H:\Project\Qt_6.11\2026-08-08\qtdeclarative_ja.ts H:\Project\Qt_6.11\qtdeclarative_ja.ts -o H:\Project\Qt_6.11\qtdeclarative_ja_merged.ts
+lconvert -i H:\Project\Qt_6.11\2026-08-08\qtmultimedia_ja.ts H:\Project\Qt_6.11\qtmultimedia_ja.ts -o H:\Project\Qt_6.11\qtmultimedia_ja_merged.ts
+lconvert -i H:\Project\Qt_6.11\2026-08-08\qtserialport_ja.ts H:\Project\Qt_6.11\qtserialport_ja.ts -o H:\Project\Qt_6.11\qtserialport_ja_merged.ts
+lconvert -i H:\Project\Qt_6.11\2026-08-08\qtwebsockets_ja.ts H:\Project\Qt_6.11\qtwebsockets_ja.ts -o H:\Project\Qt_6.11\qtwebsockets_ja_merged.ts
+
+＊ 正規化 (<location line= などを削除)
+lconvert -locations none -no-obsolete assistant_ja_merged.ts -o assistant_ja.ts
+lconvert -locations none -no-obsolete designer_ja_merged.ts -o designer_ja.ts
+lconvert -locations none -no-obsolete linguist_ja_merged.ts -o linguist_ja.ts
+lconvert -locations none -no-obsolete qt_help_ja_merged.ts -o qt_help_ja.ts
+lconvert -locations none -no-obsolete qtbase_ja_merged.ts -o qtbase_ja.ts
+lconvert -locations none -no-obsolete qtdeclarative_ja_merged.ts -o qtdeclarative_ja.ts
+lconvert -locations none -no-obsolete qtmultimedia_ja_merged.ts -o qtmultimedia_ja.ts
+lconvert -locations none -no-obsolete qtserialport_ja_merged.ts -o qtserialport_ja.ts
+lconvert -locations none -no-obsolete qtwebsockets_ja_merged.ts -o qtwebsockets_ja.ts
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+翻訳内容の保存
+lconvert -i J:\qm\plugins_ja.ts -o J:\LibreCAD\plugins_memory.qph
+
+翻訳内容の読み込み
+メニューから 「編集」→「フレーズブックを開く」 で、先ほど作ったmemory.qphを読み込む
+「編集」→「一括翻訳」(Batch Translation) を実行
+「フレーズブックの完全一致のみ使用」にチェック
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Qt Creator
+lconvert -i J:\Qt-Creator_19.0.0\qtcreator_ja.ts J:\Qt-Creator_19.0.0-beta2\qtcreator_ja.ts -o J:\Qt-Creator_19.0.0\qtcreator_ja_merged.ts
+＊ 正規化 (<location line= などを削除)
+lconvert -locations none -no-obsolete qtcreator_ja_merged.ts -o qtcreator_ja.ts
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+| 要素                      | 役割          |
+| ------------------------- | ------------- |
+| `-i qtcreator_app_ja.ts`  | **ベース（構造の正）** |
+| `qtcreator_plugins_ja.ts` | 翻訳の供給元        |
+| `-o qtcreator_ja.ts`      | 統合結果          |
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+＊ qtcreator_ja.qm から翻訳済みの recovered_ja.ts を生成
+lconvert -i G:\qtcreator-18.0.1\share\qtcreator\translations\qtcreator_ja.qm -o recovered_ja.ts
+
+＊ L10n のqtcreator_ja.ts へ recovered_ja.ts の翻訳内容を統合 (L10nは未翻訳部分が多いので)
+lconvert -i qtcreator_ja.ts recovered_ja.ts -o qtcreator_ja_merged.ts
+
+recovered_ja.ts を正規化 (<location line= などを削除)
+lconvert -locations none -no-obsolete qtcreator_ja_merged.ts -o qtcreator_ja_norm.ts
